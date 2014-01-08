@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- android:layout_width="match_parent" -->
+<!-- android:layout_height="match_parent" -->
+<!-- android:background="#ffffff" -->
+<!-- android:orientation="vertical" -->
+<!-- android:padding="8dp"> -->
+
+
+<!-- <TextView -->
+<!-- android:id="@+id/lblListHeader" -->
+<!-- android:layout_width="fill_parent" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft" -->
+<!-- android:textColor="#000000" -->
+<!-- android:textSize="17dp" /> -->
+
+
+<!-- <ImageView -->
+<!-- android:id="@+id/imageExpandable" -->
+<!-- android:layout_width="10dp" -->
+<!-- android:layout_height="10dp" -->
+<!-- android:layout_toRightOf="@+id/lblListHeader" /> -->
+
+
+<!-- </LinearLayout> -->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:background="#ffffff"
+    android:paddingTop="0dip"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageExpandableList"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="10dip" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingTop="0dip"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/text01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:textSize="17dip"
+                    android:textStyle="bold" />
+            </TableRow>
+            
+            <TableRow>
+                <TextView
+                    android:id="@+id/text02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:textSize="17dip" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+</TableLayout>

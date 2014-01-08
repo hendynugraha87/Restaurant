@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="149" key="DIALOG_Y_ORIGIN"/>
+		<item value="737" key="DIALOG_X_ORIGIN"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="MessageIndoBible(&quot;Zakharia No.&quot; + (pos + 1), &quot;Injil Zakharia&quot;);" key="selection"/>
+		<list key="findhistory">
+			<item value="MessageIndoBible(&quot;Mazmur No.&quot; + (pos + 1), &quot;Injil Mazmur&quot;);"/>
+			<item value="MessageIndoBible(&quot;Kejadian No.&quot; + (pos + 1), &quot;Injil Kejadian&quot;);"/>
+			<item value="MessageIndoBible(&quot;Bilangan No.&quot; + (pos + 1), &quot;Injil Bilangan&quot;);"/>
+			<item value="MessageIndoBible(&quot;2 Tawarikh No.&quot; + (pos + 1), &quot;Injil 2 Tawarikh&quot;);"/>
+			<item value="MessageIndoBible(&quot;2 Samuel No.&quot; + (pos + 1), &quot;Injil 2 Samuel&quot;);"/>
+			<item value="MessageIndoBible(&quot;Zakharia 1&quot;);"/>
+			<item value="MessageIndoBible(&quot; No.&quot; + (pos + 1), &quot;Injil &quot;);"/>
+			<item value="MessageIndoBible(&quot;Yosua 1&quot;);"/>
+		</list>
+		<list key="replacehistory">
+			<item value="MessageIndoBible(&quot;Zakharia No.&quot; + (pos + 1), &quot;Injil Zakharia&quot;);"/>
+			<item value="MessageIndoBible(&quot;Yosua No.&quot; + (pos + 1), &quot;Injil Yosua&quot;);"/>
+			<item value="MessageIndoBible(&quot;Yohanes No.&quot; + (pos + 1), &quot;Injil Yohanes&quot;);"/>
+			<item value="MessageIndoBible(&quot;Yesaya No.&quot; + (pos + 1), &quot;Injil Yesaya&quot;);"/>
+			<item value="MessageIndoBible(&quot;Yeremia No.&quot; + (pos + 1), &quot;Injil Yeremia&quot;);"/>
+			<item value="MessageIndoBible(&quot;Yehezkiel No.&quot; + (pos + 1), &quot;Injil Yehezkiel&quot;);"/>
+			<item value="MessageIndoBible(&quot;Yakobus No.&quot; + (pos + 1), &quot;Injil Yakobus&quot;);"/>
+			<item value="MessageIndoBible(&quot;Wahyu No.&quot; + (pos + 1), &quot;Injil Wahyu&quot;);"/>
+		</list>
+	</section>
+</section>

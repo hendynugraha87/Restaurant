@@ -1,0 +1,157 @@
+package com.example.mobileprice;
+
+import java.util.ArrayList;
+
+import android.app.AlertDialog;
+import android.app.Fragment;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.os.Bundle;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+public class SupraX125CW extends Fragment {
+
+	private ViewPager vp;
+	public PagerAdapter adapt;
+	private int [] pic;
+	private String [] label_pic;
+	ArrayList<Float> pos = new ArrayList<Float>();
+	Boolean isScrooled = false;
+	
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
+		View v = inflater.inflate(R.layout.viewpager_fragment, container, false);
+		return v;
+	}
+	
+	@Override 
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        
+        pic = new int [] {
+            	R.drawable.sxcw1,
+            	R.drawable.sxcw2,
+            	R.drawable.sxcw3,
+            	R.drawable.sxcw4
+            };
+            
+            label_pic = new String [] {
+            	"Biru",
+            	"Putih",
+            	"Hijau",
+            	"Merah"
+            };
+            
+            vp = (ViewPager)getActivity().findViewById(R.id.view_pager_detail);
+            adapt = new Absolute_Revo_SW_Adapter(getActivity(), pic, label_pic);
+            vp.setAdapter(adapt);
+            vp.setCurrentItem(0);
+            vp.setOnPageChangeListener(new OnPageChangeListener() {
+				@Override
+				public void onPageScrollStateChanged(int arg0) {
+					isScrooled = true;
+				}
+
+				@Override
+				public void onPageScrolled(int arg0, float arg1, int arg2) {}
+
+				@Override
+				public void onPageSelected(int arg0) {}
+            
+            });
+            
+	}
+	
+	public class Absolute_Revo_SW_Adapter extends PagerAdapter{
+
+		Context _context;
+		int [] _pic;
+		String [] _label_pic;
+		LayoutInflater inflater;
+		
+		public Absolute_Revo_SW_Adapter(Context context, int [] pic, String [] label_pic){
+			this._context = context;
+			this._pic = pic;
+			this._label_pic = label_pic;
+		}
+		
+		@Override
+		public int getCount() {
+			return label_pic.length;
+		}
+
+		@Override
+		public boolean isViewFromObject(View arg0, Object arg1) {
+			return arg0 == ((RelativeLayout)arg1);
+		}
+		
+		@Override
+		public Object instantiateItem(ViewGroup container, final int pos){
+			ImageView iv;
+			TextView tv;
+			inflater = (LayoutInflater)getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			final View itemv = inflater.inflate(R.layout.viewpager_item, container, false);
+			int padding = getActivity().getResources().getDimensionPixelSize(R.dimen.padding_medium);
+			
+			iv = (ImageView)itemv.findViewById(R.id.img_vp);
+			tv = (TextView)itemv.findViewById(R.id.desc_vp);
+			
+			iv.setPadding(padding, padding, padding, padding);
+			iv.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+			iv.setImageResource(pic[pos]);
+			tv.setText(label_pic[pos]);
+			
+			final int current_pos = pos;
+			
+			iv.setOnClickListener(new OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					ImageView o = (ImageView)v;
+					if(current_pos==0){
+						MessageMobilePrice("Absolute Revo SW", "Absolute Revo SW");
+					}else if(current_pos==1){
+						MessageMobilePrice("Absolute Revo SW", "Absolute Revo SW");
+					}else if(current_pos==2){
+						MessageMobilePrice("Absolute Revo SW", "Absolute Revo SW");
+					}else if(current_pos==3){
+						MessageMobilePrice("Absolute Revo SW", "Absolute Revo SW");
+					}
+				}
+			});
+			((ViewPager)container).addView(itemv, 0);
+			return itemv;
+		}
+		
+		@Override
+	    public void destroyItem(ViewGroup container, int position, Object object) {
+	      ((ViewPager) container).removeView((RelativeLayout) object);
+	    }
+		
+		public CharSequence getPageTitle (int position) {
+	        return label_pic[position];
+	    }
+	}
+	
+	private void MessageMobilePrice(String title, String message){
+		AlertDialog.Builder alert = new AlertDialog.Builder(getActivity(), AlertDialog.THEME_HOLO_DARK);
+		alert.setTitle(title)
+			.setIcon(R.drawable.ic_launcher)
+			.setMessage(message)
+			.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialog, int which) {
+					dialog.dismiss();
+				}
+			}).show();
+	}
+	
+}

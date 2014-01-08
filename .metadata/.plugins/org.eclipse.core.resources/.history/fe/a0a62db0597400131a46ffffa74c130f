@@ -1,0 +1,33 @@
+package com.example.mobileprice;
+
+import android.app.Fragment;
+import android.os.Bundle;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.PagerTitleStrip;
+import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+public class AbsoluteRevoCW extends Fragment {
+
+	private ViewPager vp;
+	private PagerTitleStrip pts;
+	public PagerAdapter adapt;
+		
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
+		View v = inflater.inflate(R.layout.viewpager_fragment, container, false);
+		return v;
+	}
+	
+	@Override 
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        
+        vp = (ViewPager)getActivity().findViewById(R.id.view_pager_detail);
+        
+        
+	}
+	
+}

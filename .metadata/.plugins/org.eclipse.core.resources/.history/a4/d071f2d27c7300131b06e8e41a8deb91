@@ -1,0 +1,251 @@
+package com.example.mobileprice;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import android.os.Bundle;
+import android.app.ActionBar;
+import android.app.Activity;
+import android.content.Context;
+import android.content.res.Configuration;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.widget.DrawerLayout;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseExpandableListAdapter;
+import android.widget.ExpandableListView;
+import android.widget.ListView;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+
+	private DrawerLayout dl;
+	private ExpandableListView xl;
+	private ActionBarDrawerToggle adt;
+	private CharSequence mDrawertitle;
+	private CharSequence mtitle;
+	private List<String> motor;
+	private HashMap<String, List<String>> data_motor;
+	private ExpandableDrawerAdapter adapt;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		loadData();
+		
+		mtitle = mDrawertitle = getActionBar().getTitle();
+		getActionBar().setHomeButtonEnabled(true);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+		getActionBar().setDisplayShowTitleEnabled(true);
+		getActionBar().setNavigationMode(ActionBar.DISPLAY_HOME_AS_UP);
+		getActionBar().setBackgroundDrawable(new ColorDrawable(Color.GREEN));
+		getActionBar().show();
+		
+		dl = (DrawerLayout)findViewById(R.id.drawer_layout);
+		xl = (ExpandableListView)findViewById(R.id.left_drawer);
+		adt = new ActionBarDrawerToggle(this, dl, R.drawable.ic_drawer, R.string.drawer_open, R.string.drawer_close){
+			public void onDrawerClosed(View view) {
+				getActionBar().setTitle(mtitle);
+				invalidateOptionsMenu();
+			}
+			public void onDrawerOpened(View drawerView) {
+				getActionBar().setTitle("Open Drawer");
+				invalidateOptionsMenu();
+			}
+		};
+		adapt = new ExpandableDrawerAdapter(this, motor, data_motor);
+		xl.setAdapter(adapt);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+	
+	@Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        // Sync the toggle state after onRestoreInstanceState has occurred.
+        adt.syncState();
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        // Pass any configuration change to the drawer toggls
+        adt.onConfigurationChanged(newConfig);
+    }
+    
+    public void loadData(){
+    	motor = new ArrayList<String>();
+    	data_motor = new HashMap<String, List<String>>();
+    	
+    	motor.add("Honda");
+    	motor.add("Yamaha");
+    	motor.add("Suzuki");
+    	motor.add("Kawasaki");
+    	
+    	List<String> motor_honda = new ArrayList<String>();
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	motor_honda.add("");
+    	
+    	List<String> motor_yamaha = new ArrayList<String>();
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	motor_yamaha.add("");
+    	
+    	List<String> motor_suzuki = new ArrayList<String>();
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	motor_suzuki.add("");
+    	
+    	List<String> motor_kawasaki = new ArrayList<String>();
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	motor_kawasaki.add("");
+    	
+    	data_motor.put(motor.get(0), motor_honda);
+    	data_motor.put(motor.get(1), motor_yamaha);
+    	data_motor.put(motor.get(2), motor_suzuki);
+    	data_motor.put(motor.get(3), motor_kawasaki);
+    }
+    
+    public class ExpandableDrawerAdapter extends BaseExpandableListAdapter{
+
+    	private Activity act;
+    	public final Context _context;
+    	public List<String> _motor, tempChild;
+    	public HashMap<String, List<String>> _data_motor;
+    	
+    	public ExpandableDrawerAdapter(Context context, List<String> motor, HashMap<String, List<String>> data_motor){
+    		this._context = context;
+    		this._motor = motor;
+    		this._data_motor = data_motor;
+    	}
+    	
+		@Override
+		public Object getChild(int groupPosition, int childPosition) {
+			return this._data_motor.get(this._motor.get(groupPosition)).get(childPosition);
+		}
+
+		@Override
+		public long getChildId(int groupPosition, int childPosition) {
+			return childPosition;
+		}
+
+		@Override
+		public View getChildView(int groupPosition, int childPosition,boolean isLastChild, View convertView, ViewGroup parent) {
+			final String childText = (String)getChild(groupPosition, childPosition);
+			if(convertView == null){
+				LayoutInflater inflater = (LayoutInflater)this._context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+				convertView = inflater.inflate(R.layout.list_row_data_motor, null);
+			}
+			TextView a = (TextView)convertView.findViewById(R.id.lblListItem);
+			a.setText(childText);
+			return convertView;
+		}
+
+		@Override
+		public int getChildrenCount(int groupPosition) {
+			return 0;
+		}
+
+		@Override
+		public Object getGroup(int groupPosition) {
+			return null;
+		}
+
+		@Override
+		public int getGroupCount() {
+			return 0;
+		}
+
+		@Override
+		public long getGroupId(int groupPosition) {
+			return 0;
+		}
+
+		@Override
+		public View getGroupView(int groupPosition, boolean isExpanded,View convertView, ViewGroup parent) {
+			return null;
+		}
+
+		@Override
+		public boolean hasStableIds() {
+			return false;
+		}
+
+		@Override
+		public boolean isChildSelectable(int groupPosition, int childPosition) {
+			return false;
+		}
+    	
+    }
+
+}
