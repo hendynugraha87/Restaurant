@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+	<LinearLayout
+	    android:id="@+id/linearlayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true" >
+	    <TextView
+	        android:id="@+id/textview1"
+	        android:layout_width="90dp"
+	        android:layout_height="wrap_content"
+	        android:text="NIM : " />
+
+	    <EditText
+	        android:id="@+id/txtnim"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	    </EditText>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/linearlayout2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/linearlayout1"
+	    android:layout_alignParentLeft="true" >
+	    <TextView
+	        android:id="@+id/textview2"
+	        android:layout_width="90dp"
+	        android:layout_height="wrap_content"
+	        android:text="Nama : " />
+
+	    <EditText
+	        android:id="@+id/txtnama"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	    </EditText>
+	</LinearLayout>
+	<LinearLayout
+	    android:id="@+id/linearlayout3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/linearlayout2"
+	    android:layout_alignParentLeft="true" >
+	    <TextView
+	        android:id="@+id/textview3"
+	        android:layout_width="90dp"
+	        android:layout_height="wrap_content"
+	        android:text="Alamat" />
+
+	    <EditText
+	        android:id="@+id/txtalamat"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+	    </EditText>
+	</LinearLayout>
+	<Button
+	    android:id="@+id/btnsimpan"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/linearlayout3"
+	    android:layout_marginLeft="14dp"
+	    android:text="Simpan" />
+</RelativeLayout>

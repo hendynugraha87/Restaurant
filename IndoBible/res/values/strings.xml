@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IndoBible</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_bible">Bible</string>
+    <string name="title_perjanjian_lama">Perjanjian Lama</string>
+    <string name="title_perjanjian_baru">Perjanjian Baru</string>
+    <string name="title_kejadian">Kejadian</string>
+    <string name="title_keluaran">Keluaran</string>
+    <string name="title_imamat">Imamat</string>
+    <string name="title_bilangan">Bilangan</string>
+    <string name="title_ulangan">Ulangan</string>
+    <string name="title_yosea">Yosea</string>
+    <string name="title_hakim_hakim">Hakim-Hakim</string>
+    <string name="title_rut">Rut</string>
+    <string name="title_satu_samuel">1 Samuel</string>
+    <string name="title_dua_samuel">2 Samuel</string>
+    <string name="title_satu_raja_raja">1 Raja-Raja</string>
+    <string name="title_dua_raja_raja">2 Raja-Raja</string>
+    <string name="title_satu_tawarikh">1 Tawarikh</string>
+    <string name="title_dua_tawarikh">2 Tawarikh</string>
+    <string name="title_ezra">Ezra</string>
+    <string name="title_nehemia">Nehemia</string>
+    <string name="title_ester">Ester</string>
+    <string name="title_ayub">Ayub</string>
+    <string name="title_mazmur">Mazmur</string>
+    <string name="title_amsal">Amsal</string>
+    <string name="title_pengkhotbah">Pengkhotbah</string>
+    <string name="title_kidung_agung">Kidung Agung</string>
+    <string name="title_yesaya">Yesaya</string>
+    <string name="title_yeremia">Yeremia</string>
+    <string name="title_ratapan">Ratapan</string>
+    <string name="title_yehezkiel">Yehezkiel</string>
+    <string name="title_daniel">Daniel</string>
+    <string name="title_hosea">Hosea</string>
+    <string name="title_yoel">Yoel</string>
+    <string name="title_amos">Amos</string>
+    <string name="title_obaja">Obaja</string>
+    <string name="title_yunus">Yunus</string>
+    <string name="title_mikha">Mikha</string>
+    <string name="title_nahum">Nahum</string>
+    <string name="title_habakuk">Habakuk</string>
+    <string name="title_zefanya">Zefanya</string>
+    <string name="title_hagai">Hagai</string>
+    <string name="title_zakharia">Zakharia</string>
+    <string name="title_maleakhi">Maleakhi</string>
+    <string name="title_matius">Matius</string>
+    <string name="title_markus">Markus</string>
+    <string name="title_lukas">Lukas</string>
+    <string name="title_yohanes">Yohanes</string>
+    <string name="title_kisah_para_rasul">Kisah Para Rasul</string>
+    <string name="title_roma">Roma</string>
+    <string name="title_satu_korintus">1 Korintus</string>
+    <string name="title_dua_korintus">2 Korintus</string>
+    <string name="title_galatia">Galatia</string>
+    <string name="title_efesus">Efesus</string>
+    <string name="title_filipi">Filipi</string>
+    <string name="title_kolose">Kolose</string>
+    <string name="title_satu_tesalonika">1 Tesalonika</string>
+    <string name="title_dua_tesalonika">2 Tesalonika</string>
+    <string name="title_satu_timotius">1 Timotius</string>
+    <string name="title_dua_timotius">2 Timotius</string>
+    <string name="title_titus">Titus</string>
+    <string name="title_filemon">Filemon</string>
+    <string name="title_ibrani">Ibrani</string>
+    <string name="title_yakobus">Yakobus</string>
+    <string name="title_satu_petrus">1 Petrus</string>
+    <string name="title_dua_petrus">2 Petrus</string>
+    <string name="title_satu_yohanes">1 Yohanes</string>
+    <string name="title_dua_yohanes">2 Yohanes</string>
+    <string name="title_tiga_yohanes">3 Yohanes</string>
+    <string name="title_yudas">Yudas</string>
+    <string name="title_wahyu">Wahyu</string>
+    
+    <string name="kejadian1_1">(1) Pada mulanya Allah menciptakan langit dan bumi.</string>
+    <string name="kejadian1_2">(2) Bumi belum berbentuk dan kosong; gelap gulita menutupi samudera raya, dan Roh Allah melayang-layang di atas permukaan air.</string>
+    <string name="kejadian1_3">(3) Berfirmanlah Allah: "Jadilah terang." Lalu terang itu jadi.</string>
+    <string name="kejadian1_4">(4) Allah melihat bahwa terang itu baik, lalu dipisahkan-Nyalah terang itu dari gelap.</string>
+    <string name="kejadian1_5">(5) Dan Allah menamai terang itu siang, dan gelap itu malam. Jadilah petang dan jadilah pagi, itulah hari pertama.</string>
+    <string name="kejadian1_6">(6) Berfirmanlah Allah: "Jadilah cakrawala di tengah segala air untuk memisahkan air dari air."</string>
+    <string name="kejadian1_7">(7) Maka Allah menjadikan cakrawala dan Ia memisahkan air yang ada di bawah cakrawala itu dari air yang ada di atasnya. Dan jadilah demikian.</string>
+    <string name="kejadian1_8">(8) Lalu Allah menamai cakrawala itu langit. Jadilah petang dan jadilah pagi, itulah hari kedua.</string>
+    <string name="kejadian1_9">(9) Berfirmanlah Allah: "Hendaklah segala air yang di bawah langit berkumpul pada satu tempat, sehingga kelihatan yang kering." Dan jadilah demikian.</string>
+    <string name="kejadian1_10">(10) Lalu Allah menamai yang kering itu darat, dan kumpulan air itu dinamai-Nya laut. Allah melihat bahwa semuanya itu baik.</string>
+    <string name="kejadian1_11">(11) Berfirmanlah Allah: "Hendaklah tanah menumbuhkan tunas-tunas muda, tumbuh-tumbuhan yang berbiji, segala jenis pohon buah-buahan yang menghasilkan buah yang berbiji, supaya ada tumbuh-tumbuhan di bumi." Dan jadilah demikian.</string>
+    <string name="kejadian1_12">(12) Tanah itu menumbuhkan tunas-tunas muda, segala jenis tumbuh-tumbuhan yang berbiji dan segala jenis pohon-pohonan yang menghasilkan buah yang berbiji. Allah melihat bahwa semuanya itu baik.</string>
+    <string name="kejadian1_13">(13) Jadilah petang dan jadilah pagi, itulah hari ketiga.</string>
+    <string name="kejadian1_14">(14) Berfirmanlah Allah: "Jadilah benda-benda penerang pada cakrawala untuk memisahkan siang dari malam. Biarlah benda-benda penerang itu menjadi tanda yang menunjukkan masa-masa yang tetap dan hari-hari dan tahun-tahun,</string>
+    <string name="kejadian1_15">(15) dan sebagai penerang pada cakrawala biarlah benda-benda itu menerangi bumi." Dan jadilah demikian.</string>
+    <string name="kejadian1_16">(16) Maka Allah menjadikan kedua benda penerang yang besar itu, yakni yang lebih besar untuk menguasai siang dan yang lebih kecil untuk menguasai malam, dan menjadikan juga bintang-bintang.</string>
+    <string name="kejadian1_17">(17) Allah menaruh semuanya itu di cakrawala untuk menerangi bumi,</string>
+    <string name="kejadian1_18">(18) dan untuk menguasai siang dan malam, dan untuk memisahkan terang dari gelap. Allah melihat bahwa semuanya itu baik.</string>
+    <string name="kejadian1_19">(19) Jadilah petang dan jadilah pagi, itulah hari keempat.</string>
+    <string name="kejadian1_20">(20) Berfirmanlah Allah: "Hendaklah dalam air berkeriapan makhluk yang hidup, dan hendaklah burung beterbangan di atas bumi melintasi cakrawala."</string>
+    <string name="kejadian1_21">(21) Maka Allah menciptakan binatang-binatang laut yang besar dan segala jenis makhluk hidup yang bergerak, yang berkeriapan dalam air, dan segala jenis burung yang bersayap. Allah melihat bahwa semuanya itu baik.</string>
+    <string name="kejadian1_22">(22) Lalu Allah memberkati semuanya itu, firman-Nya: "Berkembangbiaklah dan bertambah banyaklah serta penuhilah air dalam laut, dan hendaklah burung-burung di bumi bertambah banyak."</string>
+    <string name="kejadian1_23">(23) Jadilah petang dan jadilah pagi, itulah hari kelima.</string>
+    <string name="kejadian1_24">(24) Berfirmanlah Allah: "Hendaklah bumi mengeluarkan segala jenis makhluk yang hidup, ternak dan binatang melata dan segala jenis binatang liar." Dan jadilah demikian.</string>
+    <string name="kejadian1_25">(25) Allah menjadikan segala jenis binatang liar dan segala jenis ternak dan segala jenis binatang melata di muka bumi. Allah melihat bahwa semuanya itu baik.</string>
+    <string name="kejadian1_26">(26) Berfirmanlah Allah: "Baiklah Kita menjadikan manusia menurut gambar dan rupa Kita, supaya mereka berkuasa atas ikan-ikan di laut dan burung-burung di udara dan atas ternak dan atas seluruh bumi dan atas segala binatang melata yang merayap di bumi."</string>
+    <string name="kejadian1_27">(27) Maka Allah menciptakan manusia itu menurut gambar-Nya, menurut gambar Allah diciptakan-Nya dia; laki-laki dan perempuan diciptakan-Nya mereka.</string>
+    <string name="kejadian1_28">(28) Allah memberkati mereka, lalu Allah berfirman kepada mereka: "Beranakcuculah dan bertambah banyak; penuhilah bumi dan taklukkanlah itu, berkuasalah atas ikan-ikan di laut dan burung-burung di udara dan atas segala binatang yang merayap di bumi."</string>
+    <string name="kejadian1_29">(29) Berfirmanlah Allah: "Lihatlah, Aku memberikan kepadamu segala tumbuh-tumbuhan yang berbiji di seluruh bumi dan segala pohon-pohonan yang buahnya berbiji; itulah akan menjadi makananmu.</string>
+    <string name="kejadian1_30">(30) Tetapi kepada segala binatang di bumi dan segala burung di udara dan segala yang merayap di bumi, yang bernyawa, Kuberikan segala tumbuh-tumbuhan hijau menjadi makanannya." Dan jadilah demikian.</string>
+    <string name="kejadian1_31">(31) Maka Allah melihat segala yang dijadikan-Nya itu, sungguh amat baik. Jadilah petang dan jadilah pagi, itulah hari keenam.</string>
+	
+    <string name="kejadian2_1">(1) Demikianlah diselesaikan langit dan bumi dan segala isinya.</string>
+    <string name="kejadian2_2">(2) Ketika Allah pada hari ketujuh telah menyelesaikan pekerjaan yang dibuat-Nya itu, berhentilah Ia pada hari ketujuh dari segala pekerjaan yang telah dibuat-Nya itu.</string>
+    <string name="kejadian2_3">(3) Lalu Allah memberkati hari ketujuh itu dan menguduskannya, karena pada hari itulah Ia berhenti dari segala pekerjaan penciptaan yang telah dibuat-Nya itu.</string>
+    <string name="kejadian2_4">(4) Demikianlah riwayat langit dan bumi pada waktu diciptakan. Ketika TUHAN Allah menjadikan bumi dan langit, "em dash"</string>
+    <string name="kejadian2_5">(5) belum ada semak apapun di bumi, belum timbul tumbuh-tumbuhan apapun di padang, sebab TUHAN Allah belum menurunkan hujan ke bumi, dan belum ada orang untuk mengusahakan tanah itu;</string>
+    <string name="kejadian2_6">(6) tetapi ada kabut naik ke atas dari bumi dan membasahi seluruh permukaan bumi itu"em dash"</string>
+    <string name="kejadian2_7">(7) ketika itulah TUHAN Allah membentuk manusia itu dari debu tanah dan menghembuskan nafas hidup ke dalam hidungnya; demikianlah manusia itu menjadi makhluk yang hidup.</string>
+    <string name="kejadian2_8">(8) Selanjutnya TUHAN Allah membuat taman di Eden, di sebelah timur; disitulah ditempatkan-Nya manusia yang dibentuk-Nya itu.</string>
+    <string name="kejadian2_9">(9) Lalu TUHAN Allah menumbuhkan berbagai-bagai pohon dari bumi, yang menarik dan yang baik untuk dimakan buahnya; dan pohon kehidupan di tengah-tengah taman itu, serta pohon pengetahuan tentang yang baik dan yang jahat.</string>
+    <string name="kejadian2_10">(10) Ada suatu sungai mengalir dari Eden untuk membasahi taman itu, dan dari situ sungai itu terbagi menjadi empat cabang.</string>
+    <string name="kejadian2_11">(11) Yang pertama, namanya Pison, yakni yang mengalir mengelilingi seluruh tanah Hawila, tempat emas ada.</string>
+    <string name="kejadian2_12">(12) Dan emas dari negeri itu baik; di sana ada damar bedolah dan batu krisopras.</string>
+    <string name="kejadian2_13">(13) Nama sungai yang kedua ialah Gihon, yakni yang mengalir mengelilingi seluruh tanah Kush.</string>
+    <string name="kejadian2_14">(14) Nama sungai yang ketiga ialah Tigris, yakni yang mengalir di sebelah timur Asyur. Dan sungai yang keempat ialah Efrat.</string>
+    <string name="kejadian2_15">(15) TUHAN Allah mengambil manusia itu dan menempatkannya dalam taman Eden untuk mengusahakan dan memelihara taman itu.</string>
+    <string name="kejadian2_16">(16) Lalu TUHAN Allah memberi perintah ini kepada manusia: "Semua pohon dalam taman ini boleh kaumakan buahnya dengan bebas,</string>
+    <string name="kejadian2_17">(17) tetapi pohon pengetahuan tentang yang baik dan yang jahat itu, janganlah kaumakan buahnya, sebab pada hari engkau memakannya, pastilah engkau mati."</string>
+    <string name="kejadian2_18">(18) TUHAN Allah berfirman: "Tidak baik, kalau manusia itu seorang diri saja. Aku akan menjadikan penolong baginya, yang sepadan dengan dia."</string>
+    <string name="kejadian2_19">(19) Lalu TUHAN Allah membentuk dari tanah segala binatang hutan dan segala burung di udara. Dibawa-Nyalah semuanya kepada manusia itu untuk melihat, bagaimana ia menamainya; dan seperti nama yang diberikan manusia itu kepada tiap-tiap makhluk yang hidup, demikianlah nanti nama makhluk itu.</string>
+    <string name="kejadian2_20">(20) Manusia itu memberi nama kepada segala ternak, kepada burung-burung di udara dan kepada segala binatang hutan, tetapi baginya sendiri ia tidak menjumpai penolong yang sepadan dengan dia.</string>
+    <string name="kejadian2_21">(21) Lalu TUHAN Allah membuat manusia itu tidur nyenyak; ketika ia tidur, TUHAN Allah mengambil salah satu rusuk dari padanya, lalu menutup tempat itu dengan daging.</string>
+    <string name="kejadian2_22">(22) Dan dari rusuk yang diambil TUHAN Allah dari manusia itu, dibangun-Nyalah seorang perempuan, lalu dibawa-Nya kepada manusia itu.</string>
+    <string name="kejadian2_23">(23) Lalu berkatalah manusia itu: "Inilah dia, tulang dari tulangku dan daging dari dagingku. Ia akan dinamai perempuan, sebab ia diambil dari laki-laki."</string>
+    <string name="kejadian2_24">(24) Sebab itu seorang laki-laki akan meninggalkan ayahnya dan ibunya dan bersatu dengan isterinya, sehingga keduanya menjadi satu daging.</string>
+    <string name="kejadian2_25">(25) Mereka keduanya telanjang, manusia dan isterinya itu, tetapi mereka tidak merasa malu.</string>
+    
+    <string name="kejadian3_1">(1) Adapun ular ialah yang paling cerdik dari segala binatang di darat yang dijadikan oleh TUHAN Allah. Ular itu berkata kepada perempuan itu: "Tentulah Allah berfirman: Semua pohon dalam taman ini jangan kamu makan buahnya, bukan?"</string>
+    <string name="kejadian3_2">(2) Lalu sahut perempuan itu kepada ular itu: "Buah pohon-pohonan dalam taman ini boleh kami makan,</string>
+    <string name="kejadian3_3">(3) tetapi tentang buah pohon yang ada di tengah-tengah taman, Allah berfirman: Jangan kamu makan ataupun raba buah itu, nanti kamu mati."</string>
+    <string name="kejadian3_4">(4) Tetapi ular itu berkata kepada perempuan itu: "Sekali-kali kamu tidak akan mati,</string>
+    <string name="kejadian3_5">(5) tetapi Allah mengetahui, bahwa pada waktu kamu memakannya matamu akan terbuka, dan kamu akan menjadi seperti Allah, tahu tentang yang baik dan yang jahat."</string>
+    <string name="kejadian3_6">(6) Perempuan itu melihat, bahwa buah pohon itu baik untuk dimakan dan sedap kelihatannya, lagipula pohon itu menarik hati karena memberi pengertian. Lalu ia mengambil dari buahnya dan dimakannya dan diberikannya juga kepada suaminya yang bersama-sama dengan dia, dan suaminyapun memakannya.</string>
+    <string name="kejadian3_7">(7) Maka terbukalah mata mereka berdua dan mereka tahu, bahwa mereka telanjang; lalu mereka menyemat daun pohon ara dan membuat cawat.</string>
+    <string name="kejadian3_8">(8) Ketika mereka mendengar bunyi langkah TUHAN Allah, yang berjalan-jalan dalam taman itu pada waktu hari sejuk, bersembunyilah manusia dan isterinya itu terhadap TUHAN Allah di antara pohon-pohonan dalam taman.</string>
+    <string name="kejadian3_9">(9) Tetapi TUHAN Allah memanggil manusia itu dan berfirman kepadanya: "Di manakah engkau?"</string>
+    <string name="kejadian3_10">(10) Ia menjawab: "Ketika aku mendengar, bahwa Engkau ada dalam taman ini, aku menjadi takut, karena aku telanjang; sebab itu aku bersembunyi."</string>
+    <string name="kejadian3_11">(11) Firman-Nya: "Siapakah yang memberitahukan kepadamu, bahwa engkau telanjang? Apakah engkau makan dari buah pohon, yang Kularang engkau makan itu?"</string>
+    <string name="kejadian3_12">(12) Manusia itu menjawab: "Perempuan yang Kautempatkan di sisiku, dialah yang memberi dari buah pohon itu kepadaku, maka kumakan."</string>
+    <string name="kejadian3_13">(13) Kemudian berfirmanlah TUHAN Allah kepada perempuan itu: "Apakah yang telah kauperbuat ini?" Jawab perempuan itu: "Ular itu yang memperdayakan aku, maka kumakan."</string>
+    <string name="kejadian3_14">(14) Lalu berfirmanlah TUHAN Allah kepada ular itu: "Karena engkau berbuat demikian, terkutuklah engkau di antara segala ternak dan di antara segala binatang hutan; dengan perutmulah engkau akan menjalar dan debu tanahlah akan kaumakan seumur hidupmu.</string>
+    <string name="kejadian3_15">(15) Aku akan mengadakan permusuhan antara engkau dan perempuan ini, antara keturunanmu dan keturunannya; keturunannya akan meremukkan kepalamu, dan engkau akan meremukkan tumitnya."</string>
+    <string name="kejadian3_16">(16) Firman-Nya kepada perempuan itu: "Susah payahmu waktu mengandung akan Kubuat sangat banyak; dengan kesakitan engkau akan melahirkan anakmu; namun engkau akan berahi kepada suamimu dan ia akan berkuasa atasmu."</string>
+    <string name="kejadian3_17">(17) Lalu firman-Nya kepada manusia itu: "Karena engkau mendengarkan perkataan isterimu dan memakan dari buah pohon, yang telah Kuperintahkan kepadamu: Jangan makan dari padanya, maka terkutuklah tanah karena engkau; dengan bersusah payah engkau akan mencari rezekimu dari tanah seumur hidupmu:</string>
+    <string name="kejadian3_18">(18) semak duri dan rumput duri yang akan dihasilkannya bagimu, dan tumbuh-tumbuhan di padang akan menjadi makananmu;</string>
+    <string name="kejadian3_19">(19) dengan berpeluh engkau akan mencari makananmu, sampai engkau kembali lagi menjadi tanah, karena dari situlah engkau diambil; sebab engkau debu dan engkau akan kembali menjadi debu."</string>
+    <string name="kejadian3_20">(20) Manusia itu memberi nama Hawa kepada isterinya, sebab dialah yang menjadi ibu semua yang hidup.</string>
+    <string name="kejadian3_21">(21) Dan TUHAN Allah membuat pakaian dari kulit binatang untuk manusia dan untuk isterinya itu, lalu mengenakannya kepada mereka.</string>
+    <string name="kejadian3_22">(22) Berfirmanlah TUHAN Allah: "Sesungguhnya manusia itu telah menjadi seperti salah satu dari Kita, tahu tentang yang baik dan yang jahat; maka sekarang jangan sampai ia mengulurkan tangannya dan mengambil pula dari buah pohon kehidupan itu dan memakannya, sehingga ia hidup untuk selama-lamanya."</string>
+    <string name="kejadian3_23">(23) Lalu TUHAN Allah mengusir dia dari taman Eden supaya ia mengusahakan tanah dari mana ia diambil.</string>
+    <string name="kejadian3_24">(24) Ia menghalau manusia itu dan di sebelah timur taman Eden ditempatkan-Nyala beberapa kerub dengan pedang yang bernyala-nyala dan menyambar-nyambar, untuk menjaga jalan ke pohon kehidupan.</string>
+    
+    <string name="kejadian4_1">(1) Kemudian manusia itu bersetubuh dengan Hawa, isterinya, dan mengandunglah perempuan itu, lalu melahirkan Kain; maka kata perempuan itu: "Aku telah mendapat seorang anak laki-laki dengan pertolongan TUHAN."</string>
+    <string name="kejadian4_2">(2) Selanjutnya dilahirkannyalah Habel, adik Kain; dan Habel menjadi gembala kambing domba, Kain menjadi petani.</string>
+    <string name="kejadian4_3">(3) Setelah beberapa waktu lamanya, maka Kain mempersembahkan sebagian dari hasil tanah itu kepada TUHAN sebagai korban persembahan;</string>
+    <string name="kejadian4_4">(4) Habel juga mempersembahkan korban persembahan dari anak sulung kambing dombanya, yakni lemak-lemaknya; maka TUHAN mengindahkan Habel dan korban persembahannya itu,</string>
+    <string name="kejadian4_5">(5) tetapi Kain dan korban persembahannya tidak diindahkan-Nya. Lalu hati Kain menjadi sangat panas, dan mukanya muram.</string>
+    <string name="kejadian4_6">(6) Firman TUHAN kepada Kain: "Mengapa hatimu panas dan mukamu muram?</string>
+    <string name="kejadian4_7">(7) Apakah mukamu tidak akan berseri, jika engkau berbuat baik? Tetapi jika engkau tidak berbuat baik, dosa sudah mengintip di depan pintu; ia sangat menggoda engkau, tetapi engkau harus berkuasa atasnya."</string>
+    <string name="kejadian4_8">(8) Kata Kain kepada Habel, adiknya: "Marilah kita pergi ke padang." Ketika mereka ada di padang, tiba-tiba Kain memukul Habel, adiknya itu, lalu membunuh dia.</string>
+    <string name="kejadian4_9">(9) Firman TUHAN kepada Kain: "Di mana Habel, adikmu itu?" Jawabnya: "Aku tidak tahu! Apakah aku penjaga adikku?"</string>
+    <string name="kejadian4_10">(10) Firman-Nya: "Apakah yang telah kauperbuat ini? Darah adikmu itu berteriak kepada-Ku dari tanah.</string>
+    <string name="kejadian4_11">(11) Maka sekarang, terkutuklah engkau, terbuang jauh dari tanah yang mengangakan mulutnya untuk menerima darah adikmu itu dari tanganmu.</string>
+    <string name="kejadian4_12">(12) Apabila engkau mengusahakan tanah itu, maka tanah itu tidak akan memberikan hasil sepenuhnya lagi kepadamu; engkau menjadi seorang pelarian dan pengembara di bumi."</string>
+    <string name="kejadian4_13">(13) Kata Kain kepada TUHAN: "Hukumanku itu lebih besar dari pada yang dapat kutanggung.</string>
+    <string name="kejadian4_14">(14) Engkau menghalau aku sekarang dari tanah ini dan aku akan tersembunyi dari hadapan-Mu, seorang pelarian dan pengembara di bumi; maka barangsiapa yang akan bertemu dengan aku, tentulah akan membunuh aku."</string>
+    <string name="kejadian4_15">(15) Firman TUHAN kepadanya: "Sekali-kali tidak! Barangsiapa yang membunuh Kain akan dibalaskan kepadanya tujuh kali lipat." Kemudian TUHAN menaruh tanda pada Kain, supaya ia jangan dibunuh oleh barangsiapapun yang bertemu dengan dia.</string>
+    <string name="kejadian4_16">(16) Lalu Kain pergi dari hadapan TUHAN dan ia menetap di tanah Nod, di sebelah timur Eden.</string>
+    <string name="kejadian4_17">(17) Kain bersetubuh dengan isterinya dan mengandunglah perempuan itu, lalu melahirkan Henokh; kemudian Kain mendirikan suatu kota dan dinamainya kota itu Henokh, menurut nama anaknya.</string>
+    <string name="kejadian4_18">(18) Bagi Henokh lahirlah Irad, dan Irad itu memperanakkan Mehuyael dan Mehuyael memperanakkan Metusael, dan Metusael memperanakkan Lamekh.</string>
+    <string name="kejadian4_19">(19) Lamekh mengambil isteri dua orang; yang satu namanya Ada, yang lain Zila.</string>
+    <string name="kejadian4_20">(20) Ada itu melahirkan Yabal; dialah yang menjadi bapa orang yang diam dalam kemah dan memelihara ternak.</string>
+    <string name="kejadian4_21">(21) Nama adiknya ialah Yubal; dialah yang menjadi bapa semua orang yang memainkan kecapi dan suling.</string>
+    <string name="kejadian4_22">(22) Zila juga melahirkan anak, yakni Tubal-Kain, bapa semua tukang tembaga dan tukang besi. Adik perempuan Tubal-Kain ialah Naama.</string>
+    <string name="kejadian4_23">(23) Berkatalah Lamekh kepada kedua isterinya itu: "Ada dan Zila, dengarkanlah suaraku: hai isteri-isteri Lamekh, pasanglah telingamu kepada perkataanku ini: Aku telah membunuh seorang laki-laki karena ia melukai aku, membunuh seorang muda karena ia memukul aku sampai bengkak;</string>
+    <string name="kejadian4_24">(24) sebab jika Kain harus dibalaskan tujuh kali lipat, maka Lamekh tujuh puluh tujuh kali lipat."</string>
+    <string name="kejadian4_25">(25) Adam bersetubuh pula dengan isterinya, lalu perempuan itu melahirkan seorang anak laki-laki dan menamainya Set, sebab katanya: "Allah telah mengaruniakan kepadaku anak yang lain sebagai ganti Habel; sebab Kain telah membunuhnya."</string>
+    <string name="kejadian4_26">(26) Lahirlah seorang anak laki-laki bagi Set juga dan anak itu dinamainya Enos. Waktu itulah orang mulai memanggil nama TUHAN.</string>
+    
+    <string name="kejadian5_1">(1) Inilah daftar keturunan Adam. Pada waktu manusia itu diciptakan oleh Allah, dibuat-Nyalah dia menurut rupa Allah;</string>
+    <string name="kejadian5_2">2) laki-laki dan perempuan diciptakan-Nya mereka. Ia memberkati mereka dan memberikan nama "Manusia" kepada mereka, pada waktu mereka diciptakan.</string>
+    <string name="kejadian5_3">3) Setelah Adam hidup seratus tiga puluh tahun, ia memperanakkan seorang laki-laki menurut rupa dan gambarnya, lalu memberi nama Set kepadanya.</string>
+    <string name="kejadian5_4">4) Umur Adam, setelah memperanakkan Set, delapan ratus tahun, dan ia memperanakkan anak-anak lelaki dan perempuan.</string>
+    <string name="kejadian5_5">5) Jadi Adam mencapai umur sembilan ratus tiga puluh tahun, lalu ia mati.</string>
+    <string name="kejadian5_6">6) Setelah Set hidup seratus lima tahun, ia memperanakkan Enos.</string>
+    <string name="kejadian5_7">7) Dan Set masih hidup delapan ratus tujuh tahun, setelah ia memperanakkan Enos, dan ia memperanakkan anak-anak lelaki dan perempuan.</string>
+    <string name="kejadian5_8">8) Jadi Set mencapai umur sembilan ratus dua belas tahun, lalu ia mati.</string>
+    <string name="kejadian5_9">9) Setelah Enos hidup sembilan puluh tahun, ia memperanakkan Kenan.</string>
+    <string name="kejadian5_10">10) Dan Enos masih hidup delapan ratus lima belas tahun, setelah ia memperanakkan Kenan, dan ia memperanakkan anak-anak lelaki dan perempuan.</string>
+    <string name="kejadian5_11">11) Jadi Enos mencapai umur sembilan ratus lima tahun, lalu ia mati.</string>
+    <string name="kejadian5_12">12) Setelah Kenan hidup tujuh puluh tahun, ia memperanakkan Mahalaleel.</string>
+    <string name="kejadian5_13">13) Dan Kenan masih hidup delapan ratus empat puluh tahun, setelah ia memperanakkan Mahalaleel, dan ia memperanakkan anak-anak lelaki dan perempuan.</string>
+    <string name="kejadian5_14">14) Jadi Kenan mencapai umur sembilan ratus sepuluh tahun, lalu ia mati.</string>
+    <string name="kejadian5_15">15) Setelah Mahalaleel hidup enam puluh lima tahun, ia memperanakkan Yared.</string>
+    <string name="kejadian5_16">16) Dan Mahalaleel masih hidup delapan ratus tiga puluh tahun, setelah ia memperanakkan Yared, dan ia memperanakkan anak-anak lelaki dan perempuan.</string>
+    <string name="kejadian5_17">17) Jadi Mahalaleel mencapai umur delapan ratus sembilan puluh lima tahun, lalu ia mati.</string>
+    <string name="kejadian5_18">18) Setelah Yared hidup seratus enam puluh dua tahun, ia memperanakkan Henokh.</string>
+    <string name="kejadian5_19">19) Dan Yared masih hidup delapan ratus tahun, setelah ia memperanakkan Henokh, dan ia memperanakkan anak-anak lelaki dan perempuan.</string>
+    <string name="kejadian5_20">20) Jadi Yared mencapai umur sembilan ratus enam puluh dua tahun, lalu ia mati.</string>
+    <string name="kejadian5_21">21) Setelah Henokh hidup enam puluh lima tahun, ia memperanakkan Metusalah.</string>
+    <string name="kejadian5_22">22) Dan Henokh hidup bergaul dengan Allah selama tiga ratus tahun lagi, setelah ia memperanakkan Metusalah, dan ia memperanakkan anak-anak lelaki dan perempuan.</string>
+    <string name="kejadian5_23">23) Jadi Henokh mencapai umur tiga ratus enam puluh lima tahun.</string>
+    <string name="kejadian5_24">24) Dan Henokh hidup bergaul dengan Allah, lalu ia tidak ada lagi, sebab ia telah diangkat oleh Allah.</string>
+    <string name="kejadian5_25">25) Setelah Metusalah hidup seratus delapan puluh tujuh tahun, ia memperanakkan Lamekh.</string>
+    <string name="kejadian5_26">26) Dan Metusalah masih hidup tujuh ratus delapan puluh dua tahun, setelah ia memperanakkan Lamekh, dan ia memperanakkan anak-anak lelaki dan perempuan.</string>
+    <string name="kejadian5_27">27) Jadi Metusalah mencapai umur sembilan ratus enam puluh sembilan tahun, lalu ia mati.</string>
+    <string name="kejadian5_28">28) Setelah Lamekh hidup seratus delapan puluh dua tahun, ia memperanakkan seorang anak laki-laki,</string>
+    <string name="kejadian5_29">29) dan memberi nama Nuh kepadanya, katanya: "Anak ini akan memberi kepada kita penghiburan dalam pekerjaan kita yang penuh susah payah di tanah yang telah terkutuk oleh TUHAN."</string>
+    <string name="kejadian5_30">30) Dan Lamekh masih hidup lima ratus sembilan puluh lima tahun, setelah ia memperanakkan Nuh, dan ia memperanakkan anak-anak lelaki dan perempuan.</string>
+    <string name="kejadian5_31">31) Jadi Lamekh mencapai umur tujuh ratus tujuh puluh tujuh tahun, lalu ia mati.</string>
+    <string name="kejadian5_32">32) Setelah Nuh berumur lima ratus tahun, ia memperanakkan Sem, Ham dan Yafet.</string>
+    
+    <string name="kejadian6_1"></string>
+    <string name="kejadian6_2"></string>
+    <string name="kejadian6_3"></string>
+    <string name="kejadian6_4"></string>
+    <string name="kejadian6_5"></string>
+    <string name="kejadian6_6"></string>
+    <string name="kejadian6_7"></string>
+    <string name="kejadian6_8"></string>
+    <string name="kejadian6_9"></string>
+    <string name="kejadian6_10"></string>
+    <string name="kejadian6_11"></string>
+    <string name="kejadian6_12"></string>
+    <string name="kejadian6_13"></string>
+    <string name="kejadian6_14"></string>
+    <string name="kejadian6_15"></string>
+    <string name="kejadian6_16"></string>
+    <string name="kejadian6_17"></string>
+    <string name="kejadian6_18"></string>
+    <string name="kejadian6_19"></string>
+    <string name="kejadian6_20"></string>
+    <string name="kejadian6_21"></string>
+    <string name="kejadian6_22"></string>
+    
+    <string name="kejadian7_1"></string>
+    <string name="kejadian7_2"></string>
+    <string name="kejadian7_3"></string>
+    <string name="kejadian7_4"></string>
+    <string name="kejadian7_5"></string>
+    <string name="kejadian7_6"></string>
+    <string name="kejadian7_7"></string>
+    <string name="kejadian7_8"></string>
+    <string name="kejadian7_9"></string>
+    <string name="kejadian7_10"></string>
+    <string name="kejadian7_11"></string>
+    <string name="kejadian7_12"></string>
+    <string name="kejadian7_13"></string>
+    <string name="kejadian7_14"></string>
+    <string name="kejadian7_15"></string>
+    <string name="kejadian7_16"></string>
+    <string name="kejadian7_17"></string>
+    <string name="kejadian7_18"></string>
+    <string name="kejadian7_19"></string>
+    <string name="kejadian7_20"></string>
+    <string name="kejadian7_21"></string>
+    <string name="kejadian7_22"></string>
+    <string name="kejadian7_23"></string>
+    <string name="kejadian7_24"></string>
+    
+    <string name="kejadian8_1"></string>
+    <string name="kejadian8_2"></string>
+    <string name="kejadian8_3"></string>
+    <string name="kejadian8_4"></string>
+    <string name="kejadian8_5"></string>
+    <string name="kejadian8_6"></string>
+    <string name="kejadian8_7"></string>
+    <string name="kejadian8_8"></string>
+    <string name="kejadian8_9"></string>
+    <string name="kejadian8_10"></string>
+    <string name="kejadian8_11"></string>
+    <string name="kejadian8_12"></string>
+    <string name="kejadian8_13"></string>
+    <string name="kejadian8_14"></string>
+    <string name="kejadian8_15"></string>
+    <string name="kejadian8_16"></string>
+    <string name="kejadian8_17"></string>
+    <string name="kejadian8_18"></string>
+    <string name="kejadian8_19"></string>
+    <string name="kejadian8_20"></string>
+    <string name="kejadian8_21"></string>
+    <string name="kejadian8_22"></string>
+    
+    <string name="kejadian9_1"></string>
+    <string name="kejadian9_2"></string>
+    <string name="kejadian9_3"></string>
+    <string name="kejadian9_4"></string>
+    <string name="kejadian9_5"></string>
+    <string name="kejadian9_6"></string>
+    <string name="kejadian9_7"></string>
+    <string name="kejadian9_8"></string>
+    <string name="kejadian9_9"></string>
+    <string name="kejadian9_10"></string>
+    <string name="kejadian9_11"></string>
+    <string name="kejadian9_12"></string>
+    <string name="kejadian9_13"></string>
+    <string name="kejadian9_14"></string>
+    <string name="kejadian9_15"></string>
+    <string name="kejadian9_16"></string>
+    <string name="kejadian9_17"></string>
+    <string name="kejadian9_18"></string>
+    <string name="kejadian9_19"></string>
+    <string name="kejadian9_20"></string>
+    <string name="kejadian9_21"></string>
+    <string name="kejadian9_22"></string>
+    <string name="kejadian9_23"></string>
+    <string name="kejadian9_24"></string>
+    <string name="kejadian9_25"></string>
+    <string name="kejadian9_26"></string>
+    <string name="kejadian9_27"></string>
+    <string name="kejadian9_28"></string>
+    <string name="kejadian9_29"></string>
+    <string name="kejadian9_30"></string>
+    
+    <string name="kejadian10_1"></string>
+    <string name="kejadian10_2"></string>
+    <string name="kejadian10_3"></string>
+    <string name="kejadian10_4"></string>
+    <string name="kejadian10_5"></string>
+    <string name="kejadian10_6"></string>
+    <string name="kejadian10_7"></string>
+    <string name="kejadian10_8"></string>
+    <string name="kejadian10_9"></string>
+    <string name="kejadian10_10"></string>
+    <string name="kejadian10_11"></string>
+    <string name="kejadian10_12"></string>
+    <string name="kejadian10_13"></string>
+    <string name="kejadian10_14"></string>
+    <string name="kejadian10_15"></string>
+    <string name="kejadian10_16"></string>
+    <string name="kejadian10_17"></string>
+    <string name="kejadian10_18"></string>
+    <string name="kejadian10_19"></string>
+    <string name="kejadian10_20"></string>
+    <string name="kejadian10_21"></string>
+    <string name="kejadian10_22"></string>
+    <string name="kejadian10_23"></string>
+    <string name="kejadian10_24"></string>
+    <string name="kejadian10_25"></string>
+    <string name="kejadian10_26"></string>
+    <string name="kejadian10_27"></string>
+    <string name="kejadian10_28"></string>
+    <string name="kejadian10_29"></string>
+    <string name="kejadian10_30"></string>
+    <string name="kejadian10_31"></string>
+    <string name="kejadian10_32"></string>
+    
+    
+    
+    <string-array name="no_urut_bible">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="bible">
+        <item>Perjanjian Lama</item>
+        <item>Perjanjian Baru</item>
+    </string-array>
+    <string-array name="kejadian">
+        <item>Kejadian 1</item>
+        <item>Kejadian 2</item>
+        <item>Kejadian 3</item>
+        <item>Kejadian 4</item>
+        <item>Kejadian 5</item>
+        <item>Kejadian 6</item>
+        <item>Kejadian 7</item>
+        <item>Kejadian 8</item>
+        <item>Kejadian 9</item>
+        <item>Kejadian 10</item>
+        <item>Kejadian 11</item>
+        <item>Kejadian 12</item>
+        <item>Kejadian 13</item>
+        <item>Kejadian 14</item>
+        <item>Kejadian 15</item>
+        <item>Kejadian 16</item>
+        <item>Kejadian 17</item>
+        <item>Kejadian 18</item>
+        <item>Kejadian 19</item>
+        <item>Kejadian 20</item>
+        <item>Kejadian 21</item>
+        <item>Kejadian 22</item>
+        <item>Kejadian 23</item>
+        <item>Kejadian 24</item>
+        <item>Kejadian 25</item>
+        <item>Kejadian 26</item>
+        <item>Kejadian 27</item>
+        <item>Kejadian 28</item>
+        <item>Kejadian 29</item>
+        <item>Kejadian 30</item>
+        <item>Kejadian 31</item>
+        <item>Kejadian 32</item>
+        <item>Kejadian 33</item>
+        <item>Kejadian 34</item>
+        <item>Kejadian 35</item>
+        <item>Kejadian 36</item>
+        <item>Kejadian 37</item>
+        <item>Kejadian 38</item>
+        <item>Kejadian 39</item>
+        <item>Kejadian 40</item>
+        <item>Kejadian 41</item>
+        <item>Kejadian 42</item>
+        <item>Kejadian 43</item>
+        <item>Kejadian 44</item>
+        <item>Kejadian 45</item>
+        <item>Kejadian 46</item>
+        <item>Kejadian 47</item>
+        <item>Kejadian 48</item>
+        <item>Kejadian 49</item>
+        <item>Kejadian 50</item>
+    </string-array>
+    <string-array name="keluaran">
+        <item>Keluaran 1</item>
+        <item>Keluaran 2</item>
+        <item>Keluaran 3</item>
+        <item>Keluaran 4</item>
+        <item>Keluaran 5</item>
+        <item>Keluaran 6</item>
+        <item>Keluaran 7</item>
+        <item>Keluaran 8</item>
+        <item>Keluaran 9</item>
+        <item>Keluaran 10</item>
+        <item>Keluaran 11</item>
+        <item>Keluaran 12</item>
+        <item>Keluaran 13</item>
+        <item>Keluaran 14</item>
+        <item>Keluaran 15</item>
+        <item>Keluaran 16</item>
+        <item>Keluaran 17</item>
+        <item>Keluaran 18</item>
+        <item>Keluaran 19</item>
+        <item>Keluaran 20</item>
+        <item>Keluaran 21</item>
+        <item>Keluaran 22</item>
+        <item>Keluaran 23</item>
+        <item>Keluaran 24</item>
+        <item>Keluaran 25</item>
+        <item>Keluaran 26</item>
+        <item>Keluaran 27</item>
+        <item>Keluaran 28</item>
+        <item>Keluaran 29</item>
+        <item>Keluaran 30</item>
+        <item>Keluaran 31</item>
+        <item>Keluaran 32</item>
+        <item>Keluaran 33</item>
+        <item>Keluaran 34</item>
+        <item>Keluaran 35</item>
+        <item>Keluaran 36</item>
+        <item>Keluaran 37</item>
+        <item>Keluaran 38</item>
+        <item>Keluaran 39</item>
+        <item>Keluaran 40</item>
+    </string-array>
+    <string-array name="imamat">
+        <item>Imamat 1</item>
+        <item>Imamat 2</item>
+        <item>Imamat 3</item>
+        <item>Imamat 4</item>
+        <item>Imamat 5</item>
+        <item>Imamat 6</item>
+        <item>Imamat 7</item>
+        <item>Imamat 8</item>
+        <item>Imamat 9</item>
+        <item>Imamat 10</item>
+        <item>Imamat 11</item>
+        <item>Imamat 12</item>
+        <item>Imamat 13</item>
+        <item>Imamat 14</item>
+        <item>Imamat 15</item>
+        <item>Imamat 16</item>
+        <item>Imamat 17</item>
+        <item>Imamat 18</item>
+        <item>Imamat 19</item>
+        <item>Imamat 20</item>
+        <item>Imamat 21</item>
+        <item>Imamat 22</item>
+        <item>Imamat 23</item>
+        <item>Imamat 24</item>
+        <item>Imamat 25</item>
+        <item>Imamat 26</item>
+        <item>Imamat 27</item>
+    </string-array>
+    <string-array name="bilangan">
+        <item>Bilangan 1</item>
+        <item>Bilangan 2</item>
+        <item>Bilangan 3</item>
+        <item>Bilangan 4</item>
+        <item>Bilangan 5</item>
+        <item>Bilangan 6</item>
+        <item>Bilangan 7</item>
+        <item>Bilangan 8</item>
+        <item>Bilangan 9</item>
+        <item>Bilangan 10</item>
+        <item>Bilangan 11</item>
+        <item>Bilangan 12</item>
+        <item>Bilangan 13</item>
+        <item>Bilangan 14</item>
+        <item>Bilangan 15</item>
+        <item>Bilangan 16</item>
+        <item>Bilangan 17</item>
+        <item>Bilangan 18</item>
+        <item>Bilangan 19</item>
+        <item>Bilangan 20</item>
+        <item>Bilangan 21</item>
+        <item>Bilangan 22</item>
+        <item>Bilangan 23</item>
+        <item>Bilangan 24</item>
+        <item>Bilangan 25</item>
+        <item>Bilangan 26</item>
+        <item>Bilangan 27</item>
+        <item>Bilangan 28</item>
+        <item>Bilangan 29</item>
+        <item>Bilangan 30</item>
+        <item>Bilangan 31</item>
+        <item>Bilangan 32</item>
+        <item>Bilangan 33</item>
+        <item>Bilangan 34</item>
+        <item>Bilangan 35</item>
+        <item>Bilangan 36</item>
+    </string-array>
+    <string-array name="ulangan">
+        <item>Ulangan 1</item>
+        <item>Ulangan 2</item>
+        <item>Ulangan 3</item>
+        <item>Ulangan 4</item>
+        <item>Ulangan 5</item>
+        <item>Ulangan 6</item>
+        <item>Ulangan 7</item>
+        <item>Ulangan 8</item>
+        <item>Ulangan 9</item>
+        <item>Ulangan 10</item>
+        <item>Ulangan 11</item>
+        <item>Ulangan 12</item>
+        <item>Ulangan 13</item>
+        <item>Ulangan 14</item>
+        <item>Ulangan 15</item>
+        <item>Ulangan 16</item>
+        <item>Ulangan 17</item>
+        <item>Ulangan 18</item>
+        <item>Ulangan 19</item>
+        <item>Ulangan 20</item>
+        <item>Ulangan 21</item>
+        <item>Ulangan 22</item>
+        <item>Ulangan 23</item>
+        <item>Ulangan 24</item>
+        <item>Ulangan 25</item>
+        <item>Ulangan 26</item>
+        <item>Ulangan 27</item>
+        <item>Ulangan 28</item>
+        <item>Ulangan 29</item>
+        <item>Ulangan 30</item>
+        <item>Ulangan 31</item>
+        <item>Ulangan 32</item>
+        <item>Ulangan 33</item>
+        <item>Ulangan 34</item>
+    </string-array>
+    <string-array name="yosua">
+        <item>Yosua 1</item>
+        <item>Yosua 2</item>
+        <item>Yosua 3</item>
+        <item>Yosua 4</item>
+        <item>Yosua 5</item>
+        <item>Yosua 6</item>
+        <item>Yosua 7</item>
+        <item>Yosua 8</item>
+        <item>Yosua 9</item>
+        <item>Yosua 10</item>
+        <item>Yosua 11</item>
+        <item>Yosua 12</item>
+        <item>Yosua 13</item>
+        <item>Yosua 14</item>
+        <item>Yosua 15</item>
+        <item>Yosua 16</item>
+        <item>Yosua 17</item>
+        <item>Yosua 18</item>
+        <item>Yosua 19</item>
+        <item>Yosua 20</item>
+        <item>Yosua 21</item>
+        <item>Yosua 22</item>
+        <item>Yosua 23</item>
+        <item>Yosua 24</item>
+    </string-array>
+    <string-array name="hakim_hakim">
+        <item>Hakim-Hakim 1</item>
+        <item>Hakim-Hakim 2</item>
+        <item>Hakim-Hakim 3</item>
+        <item>Hakim-Hakim 4</item>
+        <item>Hakim-Hakim 5</item>
+        <item>Hakim-Hakim 6</item>
+        <item>Hakim-Hakim 7</item>
+        <item>Hakim-Hakim 8</item>
+        <item>Hakim-Hakim 9</item>
+        <item>Hakim-Hakim 10</item>
+        <item>Hakim-Hakim 11</item>
+        <item>Hakim-Hakim 12</item>
+        <item>Hakim-Hakim 13</item>
+        <item>Hakim-Hakim 14</item>
+        <item>Hakim-Hakim 15</item>
+        <item>Hakim-Hakim 16</item>
+        <item>Hakim-Hakim 17</item>
+        <item>Hakim-Hakim 18</item>
+        <item>Hakim-Hakim 19</item>
+        <item>Hakim-Hakim 20</item>
+        <item>Hakim-Hakim 21</item>
+    </string-array>
+    <string-array name="rut">
+        <item>Rut 1</item>
+        <item>Rut 2</item>
+        <item>Rut 3</item>
+        <item>Rut 4</item>
+    </string-array>
+    <string-array name="satu_samuel">
+        <item>1 Samuel 1</item>
+        <item>1 Samuel 2</item>
+        <item>1 Samuel 3</item>
+        <item>1 Samuel 4</item>
+        <item>1 Samuel 5</item>
+        <item>1 Samuel 6</item>
+        <item>1 Samuel 7</item>
+        <item>1 Samuel 8</item>
+        <item>1 Samuel 9</item>
+        <item>1 Samuel 10</item>
+        <item>1 Samuel 11</item>
+        <item>1 Samuel 12</item>
+        <item>1 Samuel 13</item>
+        <item>1 Samuel 14</item>
+        <item>1 Samuel 15</item>
+        <item>1 Samuel 16</item>
+        <item>1 Samuel 17</item>
+        <item>1 Samuel 18</item>
+        <item>1 Samuel 19</item>
+        <item>1 Samuel 20</item>
+        <item>1 Samuel 21</item>
+        <item>1 Samuel 22</item>
+        <item>1 Samuel 23</item>
+        <item>1 Samuel 24</item>
+        <item>1 Samuel 25</item>
+        <item>1 Samuel 26</item>
+        <item>1 Samuel 27</item>
+        <item>1 Samuel 28</item>
+        <item>1 Samuel 29</item>
+        <item>1 Samuel 30</item>
+        <item>1 Samuel 31</item>
+    </string-array>
+    <string-array name="dua_samuel">
+        <item>2 Samuel 1</item>
+        <item>2 Samuel 2</item>
+        <item>2 Samuel 3</item>
+        <item>2 Samuel 4</item>
+        <item>2 Samuel 5</item>
+        <item>2 Samuel 6</item>
+        <item>2 Samuel 7</item>
+        <item>2 Samuel 8</item>
+        <item>2 Samuel 9</item>
+        <item>2 Samuel 10</item>
+        <item>2 Samuel 11</item>
+        <item>2 Samuel 12</item>
+        <item>2 Samuel 13</item>
+        <item>2 Samuel 14</item>
+        <item>2 Samuel 15</item>
+        <item>2 Samuel 16</item>
+        <item>2 Samuel 17</item>
+        <item>2 Samuel 18</item>
+        <item>2 Samuel 19</item>
+        <item>2 Samuel 20</item>
+        <item>2 Samuel 21</item>
+        <item>2 Samuel 22</item>
+        <item>2 Samuel 23</item>
+        <item>2 Samuel 24</item>
+    </string-array>
+    <string-array name="satu_raja_raja">
+        <item>1 Raja-Raja 1</item>
+        <item>1 Raja-Raja 2</item>
+        <item>1 Raja-Raja 3</item>
+        <item>1 Raja-Raja 4</item>
+        <item>1 Raja-Raja 5</item>
+        <item>1 Raja-Raja 6</item>
+        <item>1 Raja-Raja 7</item>
+        <item>1 Raja-Raja 8</item>
+        <item>1 Raja-Raja 9</item>
+        <item>1 Raja-Raja 10</item>
+        <item>1 Raja-Raja 11</item>
+        <item>1 Raja-Raja 12</item>
+        <item>1 Raja-Raja 13</item>
+        <item>1 Raja-Raja 14</item>
+        <item>1 Raja-Raja 15</item>
+        <item>1 Raja-Raja 16</item>
+        <item>1 Raja-Raja 17</item>
+        <item>1 Raja-Raja 18</item>
+        <item>1 Raja-Raja 19</item>
+        <item>1 Raja-Raja 20</item>
+        <item>1 Raja-Raja 21</item>
+        <item>1 Raja-Raja 22</item>
+    </string-array>
+    <string-array name="dua_raja_raja">
+        <item>2 Raja-Raja 1</item>
+        <item>2 Raja-Raja 2</item>
+        <item>2 Raja-Raja 3</item>
+        <item>2 Raja-Raja 4</item>
+        <item>2 Raja-Raja 5</item>
+        <item>2 Raja-Raja 6</item>
+        <item>2 Raja-Raja 7</item>
+        <item>2 Raja-Raja 8</item>
+        <item>2 Raja-Raja 9</item>
+        <item>2 Raja-Raja 10</item>
+        <item>2 Raja-Raja 11</item>
+        <item>2 Raja-Raja 12</item>
+        <item>2 Raja-Raja 13</item>
+        <item>2 Raja-Raja 14</item>
+        <item>2 Raja-Raja 15</item>
+        <item>2 Raja-Raja 16</item>
+        <item>2 Raja-Raja 17</item>
+        <item>2 Raja-Raja 18</item>
+        <item>2 Raja-Raja 19</item>
+        <item>2 Raja-Raja 20</item>
+        <item>2 Raja-Raja 21</item>
+        <item>2 Raja-Raja 22</item>
+        <item>2 Raja-Raja 23</item>
+        <item>2 Raja-Raja 24</item>
+        <item>2 Raja-Raja 25</item>
+    </string-array>
+    <string-array name="satu_tawarikh">
+        <item>1 Tawarikh 1</item>
+        <item>1 Tawarikh 2</item>
+        <item>1 Tawarikh 3</item>
+        <item>1 Tawarikh 4</item>
+        <item>1 Tawarikh 5</item>
+        <item>1 Tawarikh 6</item>
+        <item>1 Tawarikh 7</item>
+        <item>1 Tawarikh 8</item>
+        <item>1 Tawarikh 9</item>
+        <item>1 Tawarikh 10</item>
+        <item>1 Tawarikh 11</item>
+        <item>1 Tawarikh 12</item>
+        <item>1 Tawarikh 13</item>
+        <item>1 Tawarikh 14</item>
+        <item>1 Tawarikh 15</item>
+        <item>1 Tawarikh 16</item>
+        <item>1 Tawarikh 17</item>
+        <item>1 Tawarikh 18</item>
+        <item>1 Tawarikh 19</item>
+        <item>1 Tawarikh 20</item>
+        <item>1 Tawarikh 21</item>
+        <item>1 Tawarikh 22</item>
+        <item>1 Tawarikh 23</item>
+        <item>1 Tawarikh 24</item>
+        <item>1 Tawarikh 25</item>
+        <item>1 Tawarikh 26</item>
+        <item>1 Tawarikh 27</item>
+        <item>1 Tawarikh 28</item>
+        <item>1 Tawarikh 29</item>
+    </string-array>
+    <string-array name="dua_tawarikh">
+        <item>2 Tawarikh 1</item>
+        <item>2 Tawarikh 2</item>
+        <item>2 Tawarikh 3</item>
+        <item>2 Tawarikh 4</item>
+        <item>2 Tawarikh 5</item>
+        <item>2 Tawarikh 6</item>
+        <item>2 Tawarikh 7</item>
+        <item>2 Tawarikh 8</item>
+        <item>2 Tawarikh 9</item>
+        <item>2 Tawarikh 10</item>
+        <item>2 Tawarikh 11</item>
+        <item>2 Tawarikh 12</item>
+        <item>2 Tawarikh 13</item>
+        <item>2 Tawarikh 14</item>
+        <item>2 Tawarikh 15</item>
+        <item>2 Tawarikh 16</item>
+        <item>2 Tawarikh 17</item>
+        <item>2 Tawarikh 18</item>
+        <item>2 Tawarikh 19</item>
+        <item>2 Tawarikh 20</item>
+        <item>2 Tawarikh 21</item>
+        <item>2 Tawarikh 22</item>
+        <item>2 Tawarikh 23</item>
+        <item>2 Tawarikh 24</item>
+        <item>2 Tawarikh 25</item>
+        <item>2 Tawarikh 26</item>
+        <item>2 Tawarikh 27</item>
+        <item>2 Tawarikh 28</item>
+        <item>2 Tawarikh 29</item>
+        <item>2 Tawarikh 30</item>
+        <item>2 Tawarikh 31</item>
+        <item>2 Tawarikh 32</item>
+        <item>2 Tawarikh 33</item>
+        <item>2 Tawarikh 34</item>
+        <item>2 Tawarikh 35</item>
+        <item>2 Tawarikh 36</item>
+    </string-array>
+    <string-array name="ezra">
+        <item>Ezra 1</item>
+        <item>Ezra 2</item>
+        <item>Ezra 3</item>
+        <item>Ezra 4</item>
+        <item>Ezra 5</item>
+        <item>Ezra 6</item>
+        <item>Ezra 7</item>
+        <item>Ezra 8</item>
+        <item>Ezra 9</item>
+        <item>Ezra 10</item>
+    </string-array>
+    <string-array name="nehemia">
+        <item>Nehemia 1</item>
+        <item>Nehemia 2</item>
+        <item>Nehemia 3</item>
+        <item>Nehemia 4</item>
+        <item>Nehemia 5</item>
+        <item>Nehemia 6</item>
+        <item>Nehemia 7</item>
+        <item>Nehemia 8</item>
+        <item>Nehemia 9</item>
+        <item>Nehemia 10</item>
+        <item>Nehemia 11</item>
+        <item>Nehemia 12</item>
+        <item>Nehemia 13</item>
+    </string-array>
+    <string-array name="ester">
+        <item>Ester 1</item>
+        <item>Ester 2</item>
+        <item>Ester 3</item>
+        <item>Ester 4</item>
+        <item>Ester 5</item>
+        <item>Ester 6</item>
+        <item>Ester 7</item>
+        <item>Ester 8</item>
+        <item>Ester 9</item>
+        <item>Ester 10</item>
+    </string-array>
+    <string-array name="ayub">
+        <item>Ayub 1</item>
+        <item>Ayub 2</item>
+        <item>Ayub 3</item>
+        <item>Ayub 4</item>
+        <item>Ayub 5</item>
+        <item>Ayub 6</item>
+        <item>Ayub 7</item>
+        <item>Ayub 8</item>
+        <item>Ayub 9</item>
+        <item>Ayub 10</item>
+        <item>Ayub 11</item>
+        <item>Ayub 12</item>
+        <item>Ayub 13</item>
+        <item>Ayub 14</item>
+        <item>Ayub 15</item>
+        <item>Ayub 16</item>
+        <item>Ayub 17</item>
+        <item>Ayub 18</item>
+        <item>Ayub 19</item>
+        <item>Ayub 20</item>
+        <item>Ayub 21</item>
+        <item>Ayub 22</item>
+        <item>Ayub 23</item>
+        <item>Ayub 24</item>
+        <item>Ayub 25</item>
+        <item>Ayub 26</item>
+        <item>Ayub 27</item>
+        <item>Ayub 28</item>
+        <item>Ayub 29</item>
+        <item>Ayub 30</item>
+        <item>Ayub 31</item>
+        <item>Ayub 32</item>
+        <item>Ayub 33</item>
+        <item>Ayub 34</item>
+        <item>Ayub 35</item>
+        <item>Ayub 36</item>
+        <item>Ayub 37</item>
+        <item>Ayub 38</item>
+        <item>Ayub 39</item>
+        <item>Ayub 40</item>
+        <item>Ayub 41</item>
+        <item>Ayub 42</item>
+    </string-array>
+    <string-array name="mazmur">
+        <item>Mazmur 1</item>
+        <item>Mazmur 2</item>
+        <item>Mazmur 3</item>
+        <item>Mazmur 4</item>
+        <item>Mazmur 5</item>
+        <item>Mazmur 6</item>
+        <item>Mazmur 7</item>
+        <item>Mazmur 8</item>
+        <item>Mazmur 9</item>
+        <item>Mazmur 10</item>
+        <item>Mazmur 11</item>
+        <item>Mazmur 12</item>
+        <item>Mazmur 13</item>
+        <item>Mazmur 14</item>
+        <item>Mazmur 15</item>
+        <item>Mazmur 16</item>
+        <item>Mazmur 17</item>
+        <item>Mazmur 18</item>
+        <item>Mazmur 19</item>
+        <item>Mazmur 20</item>
+        <item>Mazmur 21</item>
+        <item>Mazmur 22</item>
+        <item>Mazmur 23</item>
+        <item>Mazmur 24</item>
+        <item>Mazmur 25</item>
+        <item>Mazmur 26</item>
+        <item>Mazmur 27</item>
+        <item>Mazmur 28</item>
+        <item>Mazmur 29</item>
+        <item>Mazmur 30</item>
+        <item>Mazmur 31</item>
+        <item>Mazmur 32</item>
+        <item>Mazmur 33</item>
+        <item>Mazmur 34</item>
+        <item>Mazmur 35</item>
+        <item>Mazmur 36</item>
+        <item>Mazmur 37</item>
+        <item>Mazmur 38</item>
+        <item>Mazmur 39</item>
+        <item>Mazmur 40</item>
+        <item>Mazmur 41</item>
+        <item>Mazmur 42</item>
+        <item>Mazmur 43</item>
+        <item>Mazmur 44</item>
+        <item>Mazmur 45</item>
+        <item>Mazmur 46</item>
+        <item>Mazmur 47</item>
+        <item>Mazmur 48</item>
+        <item>Mazmur 49</item>
+        <item>Mazmur 50</item>
+        <item>Mazmur 51</item>
+        <item>Mazmur 52</item>
+        <item>Mazmur 53</item>
+        <item>Mazmur 54</item>
+        <item>Mazmur 55</item>
+        <item>Mazmur 56</item>
+        <item>Mazmur 57</item>
+        <item>Mazmur 58</item>
+        <item>Mazmur 59</item>
+        <item>Mazmur 60</item>
+        <item>Mazmur 61</item>
+        <item>Mazmur 62</item>
+        <item>Mazmur 63</item>
+        <item>Mazmur 64</item>
+        <item>Mazmur 65</item>
+        <item>Mazmur 66</item>
+        <item>Mazmur 67</item>
+        <item>Mazmur 68</item>
+        <item>Mazmur 69</item>
+        <item>Mazmur 70</item>
+        <item>Mazmur 71</item>
+        <item>Mazmur 72</item>
+        <item>Mazmur 73</item>
+        <item>Mazmur 74</item>
+        <item>Mazmur 75</item>
+        <item>Mazmur 76</item>
+        <item>Mazmur 77</item>
+        <item>Mazmur 78</item>
+        <item>Mazmur 79</item>
+        <item>Mazmur 80</item>
+        <item>Mazmur 81</item>
+        <item>Mazmur 82</item>
+        <item>Mazmur 83</item>
+        <item>Mazmur 84</item>
+        <item>Mazmur 85</item>
+        <item>Mazmur 86</item>
+        <item>Mazmur 87</item>
+        <item>Mazmur 88</item>
+        <item>Mazmur 89</item>
+        <item>Mazmur 90</item>
+        <item>Mazmur 91</item>
+        <item>Mazmur 92</item>
+        <item>Mazmur 93</item>
+        <item>Mazmur 94</item>
+        <item>Mazmur 95</item>
+        <item>Mazmur 96</item>
+        <item>Mazmur 97</item>
+        <item>Mazmur 98</item>
+        <item>Mazmur 99</item>
+        <item>Mazmur 101</item>
+        <item>Mazmur 102</item>
+        <item>Mazmur 103</item>
+        <item>Mazmur 104</item>
+        <item>Mazmur 105</item>
+        <item>Mazmur 106</item>
+        <item>Mazmur 107</item>
+        <item>Mazmur 108</item>
+        <item>Mazmur 109</item>
+        <item>Mazmur 110</item>
+        <item>Mazmur 111</item>
+        <item>Mazmur 112</item>
+        <item>Mazmur 113</item>
+        <item>Mazmur 114</item>
+        <item>Mazmur 115</item>
+        <item>Mazmur 116</item>
+        <item>Mazmur 117</item>
+        <item>Mazmur 118</item>
+        <item>Mazmur 119</item>
+        <item>Mazmur 120</item>
+        <item>Mazmur 121</item>
+        <item>Mazmur 122</item>
+        <item>Mazmur 123</item>
+        <item>Mazmur 124</item>
+        <item>Mazmur 125</item>
+        <item>Mazmur 126</item>
+        <item>Mazmur 127</item>
+        <item>Mazmur 128</item>
+        <item>Mazmur 129</item>
+        <item>Mazmur 130</item>
+        <item>Mazmur 131</item>
+        <item>Mazmur 132</item>
+        <item>Mazmur 133</item>
+        <item>Mazmur 134</item>
+        <item>Mazmur 135</item>
+        <item>Mazmur 136</item>
+        <item>Mazmur 137</item>
+        <item>Mazmur 138</item>
+        <item>Mazmur 139</item>
+        <item>Mazmur 140</item>
+        <item>Mazmur 141</item>
+        <item>Mazmur 142</item>
+        <item>Mazmur 143</item>
+        <item>Mazmur 144</item>
+        <item>Mazmur 145</item>
+        <item>Mazmur 146</item>
+        <item>Mazmur 147</item>
+        <item>Mazmur 148</item>
+        <item>Mazmur 149</item>
+        <item>Mazmur 150</item>
+    </string-array>
+    <string-array name="amsal">
+        <item>Amsal 1</item>
+        <item>Amsal 2</item>
+        <item>Amsal 3</item>
+        <item>Amsal 4</item>
+        <item>Amsal 5</item>
+        <item>Amsal 6</item>
+        <item>Amsal 7</item>
+        <item>Amsal 8</item>
+        <item>Amsal 9</item>
+        <item>Amsal 10</item>
+        <item>Amsal 11</item>
+        <item>Amsal 12</item>
+        <item>Amsal 13</item>
+        <item>Amsal 14</item>
+        <item>Amsal 15</item>
+        <item>Amsal 16</item>
+        <item>Amsal 17</item>
+        <item>Amsal 18</item>
+        <item>Amsal 19</item>
+        <item>Amsal 20</item>
+        <item>Amsal 21</item>
+        <item>Amsal 22</item>
+        <item>Amsal 23</item>
+        <item>Amsal 24</item>
+        <item>Amsal 25</item>
+        <item>Amsal 26</item>
+        <item>Amsal 27</item>
+        <item>Amsal 28</item>
+        <item>Amsal 29</item>
+        <item>Amsal 30</item>
+        <item>Amsal 31</item>
+    </string-array>
+    <string-array name="pengkhotbah">
+        <item>Pengkhotbah 1</item>
+        <item>Pengkhotbah 2</item>
+        <item>Pengkhotbah 3</item>
+        <item>Pengkhotbah 4</item>
+        <item>Pengkhotbah 5</item>
+        <item>Pengkhotbah 6</item>
+        <item>Pengkhotbah 7</item>
+        <item>Pengkhotbah 8</item>
+        <item>Pengkhotbah 9</item>
+        <item>Pengkhotbah 10</item>
+        <item>Pengkhotbah 11</item>
+        <item>Pengkhotbah 12</item>
+    </string-array>
+    <string-array name="kidung_agung">
+        <item>Kidung_Agung 1</item>
+        <item>Kidung_Agung 2</item>
+        <item>Kidung_Agung 3</item>
+        <item>Kidung_Agung 4</item>
+        <item>Kidung_Agung 5</item>
+        <item>Kidung_Agung 6</item>
+        <item>Kidung_Agung 7</item>
+        <item>Kidung_Agung 8</item>
+    </string-array>
+    <string-array name="yesaya">
+        <item>Yesaya 1</item>
+        <item>Yesaya 2</item>
+        <item>Yesaya 3</item>
+        <item>Yesaya 4</item>
+        <item>Yesaya 5</item>
+        <item>Yesaya 6</item>
+        <item>Yesaya 7</item>
+        <item>Yesaya 8</item>
+        <item>Yesaya 9</item>
+        <item>Yesaya 10</item>
+        <item>Yesaya 11</item>
+        <item>Yesaya 12</item>
+        <item>Yesaya 13</item>
+        <item>Yesaya 14</item>
+        <item>Yesaya 15</item>
+        <item>Yesaya 16</item>
+        <item>Yesaya 17</item>
+        <item>Yesaya 18</item>
+        <item>Yesaya 19</item>
+        <item>Yesaya 20</item>
+        <item>Yesaya 21</item>
+        <item>Yesaya 22</item>
+        <item>Yesaya 23</item>
+        <item>Yesaya 24</item>
+        <item>Yesaya 25</item>
+        <item>Yesaya 26</item>
+        <item>Yesaya 27</item>
+        <item>Yesaya 28</item>
+        <item>Yesaya 29</item>
+        <item>Yesaya 30</item>
+        <item>Yesaya 31</item>
+        <item>Yesaya 32</item>
+        <item>Yesaya 33</item>
+        <item>Yesaya 34</item>
+        <item>Yesaya 35</item>
+        <item>Yesaya 36</item>
+        <item>Yesaya 37</item>
+        <item>Yesaya 38</item>
+        <item>Yesaya 39</item>
+        <item>Yesaya 40</item>
+        <item>Yesaya 41</item>
+        <item>Yesaya 42</item>
+        <item>Yesaya 43</item>
+        <item>Yesaya 44</item>
+        <item>Yesaya 45</item>
+        <item>Yesaya 46</item>
+        <item>Yesaya 47</item>
+        <item>Yesaya 48</item>
+        <item>Yesaya 49</item>
+        <item>Yesaya 50</item>
+        <item>Yesaya 51</item>
+        <item>Yesaya 52</item>
+        <item>Yesaya 53</item>
+        <item>Yesaya 54</item>
+        <item>Yesaya 55</item>
+        <item>Yesaya 56</item>
+        <item>Yesaya 57</item>
+        <item>Yesaya 58</item>
+        <item>Yesaya 59</item>
+        <item>Yesaya 60</item>
+        <item>Yesaya 61</item>
+        <item>Yesaya 62</item>
+        <item>Yesaya 63</item>
+        <item>Yesaya 64</item>
+        <item>Yesaya 65</item>
+        <item>Yesaya 66</item>
+    </string-array>
+    <string-array name="yeremia">
+        <item>Yeremia 1</item>
+        <item>Yeremia 2</item>
+        <item>Yeremia 3</item>
+        <item>Yeremia 4</item>
+        <item>Yeremia 5</item>
+        <item>Yeremia 6</item>
+        <item>Yeremia 7</item>
+        <item>Yeremia 8</item>
+        <item>Yeremia 9</item>
+        <item>Yeremia 10</item>
+        <item>Yeremia 11</item>
+        <item>Yeremia 12</item>
+        <item>Yeremia 13</item>
+        <item>Yeremia 14</item>
+        <item>Yeremia 15</item>
+        <item>Yeremia 16</item>
+        <item>Yeremia 17</item>
+        <item>Yeremia 18</item>
+        <item>Yeremia 19</item>
+        <item>Yeremia 20</item>
+        <item>Yeremia 21</item>
+        <item>Yeremia 22</item>
+        <item>Yeremia 23</item>
+        <item>Yeremia 24</item>
+        <item>Yeremia 25</item>
+        <item>Yeremia 26</item>
+        <item>Yeremia 27</item>
+        <item>Yeremia 28</item>
+        <item>Yeremia 29</item>
+        <item>Yeremia 30</item>
+        <item>Yeremia 31</item>
+        <item>Yeremia 32</item>
+        <item>Yeremia 33</item>
+        <item>Yeremia 34</item>
+        <item>Yeremia 35</item>
+        <item>Yeremia 36</item>
+        <item>Yeremia 37</item>
+        <item>Yeremia 38</item>
+        <item>Yeremia 39</item>
+        <item>Yeremia 40</item>
+        <item>Yeremia 41</item>
+        <item>Yeremia 42</item>
+        <item>Yeremia 43</item>
+        <item>Yeremia 42</item>
+        <item>Yeremia 45</item>
+        <item>Yeremia 46</item>
+        <item>Yeremia 47</item>
+        <item>Yeremia 48</item>
+        <item>Yeremia 49</item>
+        <item>Yeremia 50</item>
+        <item>Yeremia 51</item>
+        <item>Yeremia 52</item>
+    </string-array>
+    <string-array name="ratapan">
+        <item>Ratapan 1</item>
+        <item>Ratapan 2</item>
+        <item>Ratapan 3</item>
+        <item>Ratapan 4</item>
+        <item>Ratapan 5</item>
+    </string-array>
+    <string-array name="yehezkiel">
+        <item>Yehezkiel 1</item>
+        <item>Yehezkiel 2</item>
+        <item>Yehezkiel 3</item>
+        <item>Yehezkiel 4</item>
+        <item>Yehezkiel 5</item>
+        <item>Yehezkiel 6</item>
+        <item>Yehezkiel 7</item>
+        <item>Yehezkiel 8</item>
+        <item>Yehezkiel 9</item>
+        <item>Yehezkiel 10</item>
+        <item>Yehezkiel 11</item>
+        <item>Yehezkiel 12</item>
+        <item>Yehezkiel 13</item>
+        <item>Yehezkiel 14</item>
+        <item>Yehezkiel 15</item>
+        <item>Yehezkiel 16</item>
+        <item>Yehezkiel 17</item>
+        <item>Yehezkiel 18</item>
+        <item>Yehezkiel 19</item>
+        <item>Yehezkiel 20</item>
+        <item>Yehezkiel 21</item>
+        <item>Yehezkiel 22</item>
+        <item>Yehezkiel 23</item>
+        <item>Yehezkiel 24</item>
+        <item>Yehezkiel 25</item>
+        <item>Yehezkiel 26</item>
+        <item>Yehezkiel 27</item>
+        <item>Yehezkiel 28</item>
+        <item>Yehezkiel 29</item>
+        <item>Yehezkiel 30</item>
+        <item>Yehezkiel 31</item>
+        <item>Yehezkiel 32</item>
+        <item>Yehezkiel 33</item>
+        <item>Yehezkiel 34</item>
+        <item>Yehezkiel 35</item>
+        <item>Yehezkiel 36</item>
+        <item>Yehezkiel 37</item>
+        <item>Yehezkiel 38</item>
+        <item>Yehezkiel 39</item>
+        <item>Yehezkiel 40</item>
+        <item>Yehezkiel 41</item>
+        <item>Yehezkiel 42</item>
+        <item>Yehezkiel 43</item>
+        <item>Yehezkiel 44</item>
+        <item>Yehezkiel 45</item>
+        <item>Yehezkiel 46</item>
+        <item>Yehezkiel 47</item>
+        <item>Yehezkiel 48</item>
+    </string-array>
+    <string-array name="daniel">
+        <item>Daniel 1</item>
+        <item>Daniel 2</item>
+        <item>Daniel 3</item>
+        <item>Daniel 4</item>
+        <item>Daniel 5</item>
+        <item>Daniel 6</item>
+        <item>Daniel 7</item>
+        <item>Daniel 8</item>
+        <item>Daniel 9</item>
+        <item>Daniel 11</item>
+        <item>Daniel 12</item>
+    </string-array>
+    <string-array name="hosea">
+        <item>Hosea 1</item>
+        <item>Hosea 2</item>
+        <item>Hosea 3</item>
+        <item>Hosea 4</item>
+        <item>Hosea 5</item>
+        <item>Hosea 6</item>
+        <item>Hosea 7</item>
+        <item>Hosea 8</item>
+        <item>Hosea 9</item>
+        <item>Hosea 10</item>
+        <item>Hosea 11</item>
+        <item>Hosea 12</item>
+        <item>Hosea 13</item>
+        <item>Hosea 14</item>
+    </string-array>
+    <string-array name="yoel">
+        <item>Yoel 1</item>
+        <item>Yoel 2</item>
+        <item>Yoel 3</item>
+    </string-array>
+    <string-array name="amos">
+        <item>Amos 1</item>
+        <item>Amos 2</item>
+        <item>Amos 3</item>
+        <item>Amos 4</item>
+        <item>Amos 5</item>
+        <item>Amos 1</item>
+        <item>Amos 6</item>
+        <item>Amos 7</item>
+        <item>Amos 8</item>
+        <item>Amos 9</item>
+    </string-array>
+    <string-array name="obaja">
+        <item>Obaja 1</item>
+    </string-array>
+    <string-array name="yunus">
+        <item>Yunus 1</item>
+        <item>Yunus 2</item>
+        <item>Yunus 3</item>
+        <item>Yunus 4</item>
+    </string-array>
+    <string-array name="mikha">
+        <item>Mikha 1</item>
+        <item>Mikha 2</item>
+        <item>Mikha 3</item>
+        <item>Mikha 4</item>
+        <item>Mikha 5</item>
+        <item>Mikha 6</item>
+        <item>Mikha 7</item>
+    </string-array>
+    <string-array name="nahum">
+        <item>Nahum 1</item>
+        <item>Nahum 2</item>
+        <item>Nahum 3</item>
+    </string-array>
+    <string-array name="habakuk">
+        <item>Habakuk 1</item>
+        <item>Habakuk 2</item>
+        <item>Habakuk 3</item>
+    </string-array>
+    <string-array name="zefanya">
+        <item>Zefanya 1</item>
+        <item>Zefanya 2</item>
+        <item>Zefanya 3</item>
+    </string-array>
+    <string-array name="hagai">
+        <item>Hagai 1</item>
+        <item>Hagai 2</item>
+    </string-array>
+    <string-array name="zakharia">
+        <item>Zakharia 1</item>
+        <item>Zakharia 2</item>
+        <item>Zakharia 3</item>
+        <item>Zakharia 4</item>
+        <item>Zakharia 5</item>
+        <item>Zakharia 6</item>
+        <item>Zakharia 7</item>
+        <item>Zakharia 8</item>
+        <item>Zakharia 9</item>
+        <item>Zakharia 10</item>
+        <item>Zakharia 11</item>
+        <item>Zakharia 12</item>
+        <item>Zakharia 13</item>
+        <item>Zakharia 14</item>
+    </string-array>
+    <string-array name="maleakhi">
+        <item>Maleakhi 1</item>
+        <item>Maleakhi 2</item>
+        <item>Maleakhi 3</item>
+        <item>Maleakhi 4</item>
+    </string-array>
+    
+    <string-array name="matius">
+        <item>Matius 1</item>
+        <item>Matius 2</item>
+        <item>Matius 3</item>
+        <item>Matius 4</item>
+        <item>Matius 5</item>
+        <item>Matius 6</item>
+        <item>Matius 7</item>
+        <item>Matius 8</item>
+        <item>Matius 9</item>
+        <item>Matius 10</item>
+        <item>Matius 11</item>
+        <item>Matius 12</item>
+        <item>Matius 13</item>
+        <item>Matius 14</item>
+        <item>Matius 15</item>
+        <item>Matius 16</item>
+        <item>Matius 17</item>
+        <item>Matius 18</item>
+        <item>Matius 19</item>
+        <item>Matius 20</item>
+        <item>Matius 21</item>
+        <item>Matius 22</item>
+        <item>Matius 23</item>
+        <item>Matius 24</item>
+        <item>Matius 25</item>
+        <item>Matius 26</item>
+        <item>Matius 27</item>
+        <item>Matius 28</item>
+    </string-array>
+    <string-array name="markus">
+        <item>Markus 1</item>
+        <item>Markus 2</item>
+        <item>Markus 3</item>
+        <item>Markus 4</item>
+        <item>Markus 5</item>
+        <item>Markus 6</item>
+        <item>Markus 7</item>
+        <item>Markus 8</item>
+        <item>Markus 9</item>
+        <item>Markus 10</item>
+        <item>Markus 11</item>
+        <item>Markus 12</item>
+        <item>Markus 13</item>
+        <item>Markus 14</item>
+        <item>Markus 15</item>
+        <item>Markus 16</item>
+    </string-array>
+    <string-array name="lukas">
+        <item>Lukas 1</item>
+        <item>Lukas 2</item>
+        <item>Lukas 3</item>
+        <item>Lukas 4</item>
+        <item>Lukas 5</item>
+        <item>Lukas 6</item>
+        <item>Lukas 7</item>
+        <item>Lukas 8</item>
+        <item>Lukas 9</item>
+        <item>Lukas 10</item>
+        <item>Lukas 11</item>
+        <item>Lukas 12</item>
+        <item>Lukas 13</item>
+        <item>Lukas 14</item>
+        <item>Lukas 15</item>
+        <item>Lukas 16</item>
+         <item>Lukas 17 </item>
+        <item>Lukas 18</item>
+        <item>Lukas 19</item>
+        <item>Lukas 20</item>
+        <item>Lukas 21</item>
+        <item>Lukas 22</item>
+        <item>Lukas 23</item>
+        <item>Lukas 24</item> 
+    </string-array>
+    <string-array name="yohanes">
+        <item>Yohanes 1</item>
+        <item>Yohanes 2</item>
+        <item>Yohanes 3</item>
+        <item>Yohanes 4</item>
+        <item>Yohanes 5</item>
+        <item>Yohanes 6</item>
+        <item>Yohanes 7</item>
+        <item>Yohanes 8</item>
+        <item>Yohanes 9</item>
+        <item>Yohanes 10</item>
+        <item>Yohanes 11</item>
+        <item>Yohanes 12</item>
+        <item>Yohanes 13</item>
+        <item>Yohanes 14</item>
+        <item>Yohanes 15</item>
+        <item>Yohanes 16</item>
+        <item>Yohanes 17</item>
+        <item>Yohanes 18</item>
+        <item>Yohanes 19</item>
+        <item>Yohanes 10</item>
+        <item>Yohanes 21</item>
+    </string-array>
+    <string-array name="kisah_para_rasul">
+        <item>Kisah Para Rasul 1</item>
+        <item>Kisah Para Rasul 2</item>
+        <item>Kisah Para Rasul 3</item>
+        <item>Kisah Para Rasul 4</item>
+        <item>Kisah Para Rasul 5</item>
+        <item>Kisah Para Rasul 6</item>
+        <item>Kisah Para Rasul 7</item>
+        <item>Kisah Para Rasul 8</item>
+        <item>Kisah Para Rasul 9</item>
+        <item>Kisah Para Rasul 10</item>
+        <item>Kisah Para Rasul 11</item>
+        <item>Kisah Para Rasul 12</item>
+        <item>Kisah Para Rasul 13</item>
+        <item>Kisah Para Rasul 14</item>
+        <item>Kisah Para Rasul 15</item>
+        <item>Kisah Para Rasul 16</item>
+        <item>Kisah Para Rasul 17</item>
+        <item>Kisah Para Rasul 18</item>
+        <item>Kisah Para Rasul 19</item>
+        <item>Kisah Para Rasul 20</item>
+        <item>Kisah Para Rasul 21</item>
+        <item>Kisah Para Rasul 22</item>
+        <item>Kisah Para Rasul 23</item>
+        <item>Kisah Para Rasul 24</item>
+        <item>Kisah Para Rasul 25</item>
+        <item>Kisah Para Rasul 26</item>
+        <item>Kisah Para Rasul 27</item>
+        <item>Kisah Para Rasul 28</item>
+    </string-array>
+    <string-array name="roma">
+        <item>Roma 1</item>
+        <item>Roma 2</item>
+        <item>Roma 3</item>
+        <item>Roma 4</item>
+        <item>Roma 5</item>
+        <item>Roma 6</item>
+        <item>Roma 7</item>
+        <item>Roma 8</item>
+        <item>Roma 9</item>
+        <item>Roma 10</item>
+        <item>Roma 11</item>
+        <item>Roma 12</item>
+        <item>Roma 13</item>
+        <item>Roma 14</item>
+        <item>Roma 15</item>
+        <item>Roma 16</item>
+    </string-array>
+    <string-array name="satu_korintus">
+        <item>1 Korintus 1</item>
+        <item>1 Korintus 2</item>
+        <item>1 Korintus 3</item>
+        <item>1 Korintus 4</item>
+        <item>1 Korintus 5</item>
+        <item>1 Korintus 6</item>
+        <item>1 Korintus 7</item>
+        <item>1 Korintus 8</item>
+        <item>1 Korintus 9</item>
+        <item>1 Korintus 10</item>
+        <item>1 Korintus 11</item>
+        <item>1 Korintus 12</item>
+        <item>1 Korintus 13</item>
+        <item>1 Korintus 14</item>
+        <item>1 Korintus 15</item>
+        <item>1 Korintus 16</item>
+    </string-array>
+    <string-array name="dua_korintus">
+        <item>2 Korintus 1</item>
+        <item>2 Korintus 2</item>
+        <item>2 Korintus 3</item>
+        <item>2 Korintus 4</item>
+        <item>2 Korintus 5</item>
+        <item>2 Korintus 6</item>
+        <item>2 Korintus 7</item>
+        <item>2 Korintus 8</item>
+        <item>2 Korintus 9</item>
+        <item>2 Korintus 10</item>
+        <item>2 Korintus 11</item>
+        <item>2 Korintus 12</item>
+        <item>2 Korintus 13</item>
+    </string-array>
+    <string-array name="galatia">
+        <item>Galatia 1</item>
+        <item>Galatia 2</item>
+        <item>Galatia 3</item>
+        <item>Galatia 4</item>
+        <item>Galatia 5</item>
+        <item>Galatia 6</item>
+    </string-array>
+    <string-array name="efesus">
+        <item>Efesus 1</item>
+        <item>Efesus 2</item>
+        <item>Efesus 3</item>
+        <item>Efesus 4</item>
+        <item>Efesus 5</item>
+        <item>Efesus 6</item>
+    </string-array>
+    <string-array name="filipi">
+        <item>Filipi 1</item>
+        <item>Filipi 2</item>
+        <item>Filipi 3</item>
+        <item>Filipi 4</item>
+    </string-array>
+    <string-array name="kolose">
+        <item>Kolose 1</item>
+        <item>Kolose 2</item>
+        <item>Kolose 3</item>
+        <item>Kolose 4</item>
+    </string-array>
+    <string-array name="satu_tesalonika">
+        <item>1 Tesalonika 1</item>
+        <item>1 Tesalonika 2</item>
+        <item>1 Tesalonika 3</item>
+        <item>1 Tesalonika 4</item>
+        <item>1 Tesalonika 5</item>
+    </string-array>
+    <string-array name="dua_tesalonika">
+        <item>2 Tesalonika 1</item>
+        <item>2 Tesalonika 2</item>
+        <item>2 Tesalonika 3</item>
+    </string-array>
+    <string-array name="satu_timotius">
+        <item>1 Timotius 1</item>
+        <item>1 Timotius 2</item>
+        <item>1 Timotius 3</item>
+        <item>1 Timotius 4</item>
+        <item>1 Timotius 5</item>
+        <item>1 Timotius 6</item>
+    </string-array>
+    <string-array name="dua_timotius">
+        <item>2 Timotius 1</item>
+        <item>2 Timotius 2</item>
+        <item>2 Timotius 3</item>
+        <item>2 Timotius 4</item>
+    </string-array>
+    <string-array name="titus">
+        <item>Titus 1</item>
+        <item>Titus 2</item>
+        <item>Titus 3</item>
+    </string-array>
+    <string-array name="filemon">
+        <item>Filemon 1</item>
+    </string-array>
+    <string-array name="ibrani">
+        <item>Ibrani 1</item>
+        <item>Ibrani 2</item>
+        <item>Ibrani 3</item>
+        <item>Ibrani 4</item>
+        <item>Ibrani 5</item>
+        <item>Ibrani 6</item>
+        <item>Ibrani 7</item>
+        <item>Ibrani 8</item>
+        <item>Ibrani 9</item>
+        <item>Ibrani 10</item>
+        <item>Ibrani 11</item>
+        <item>Ibrani 12</item>
+        <item>Ibrani 13</item>
+    </string-array>
+    <string-array name="yakobus">
+        <item>Yakobus 1</item>
+        <item>Yakobus 2</item>
+        <item>Yakobus 3</item>
+        <item>Yakobus 4</item>
+        <item>Yakobus 5</item>
+    </string-array>
+    <string-array name="satu_petrus">
+        <item>1 Petrus 1</item>
+        <item>1 Petrus 2</item>
+        <item>1 Petrus 3</item>
+        <item>1 Petrus 4</item>
+        <item>1 Petrus 5</item>
+    </string-array>
+    <string-array name="dua_petrus">
+        <item>2 Petrus 1</item>
+        <item>2 Petrus 2</item>
+        <item>2 Petrus 3</item>
+    </string-array>
+    <string-array name="satu_yohanes">
+        <item>1 Yohanes 1</item>
+        <item>1 Yohanes 2</item>
+        <item>1 Yohanes 3</item>
+        <item>1 Yohanes 4</item>
+        <item>1 Yohanes 5</item>
+    </string-array>
+    <string-array name="dua_yohanes">
+        <item>2 Yohanes 1</item>
+    </string-array>
+    <string-array name="tiga_yohanes">
+        <item>3 Yohanes 1</item>
+    </string-array>
+    <string-array name="yudas">
+        <item>Yudas 1</item>
+    </string-array>
+    <string-array name="wahyu">
+        <item>Wahyu 1</item>
+        <item>Wahyu 2</item>
+        <item>Wahyu 3</item>
+        <item>Wahyu 4</item>
+        <item>Wahyu 5</item>
+        <item>Wahyu 6</item>
+        <item>Wahyu 7</item>
+        <item>Wahyu 8</item>
+        <item>Wahyu 9</item>
+        <item>Wahyu 10</item>
+        <item>Wahyu 11</item>
+        <item>Wahyu 12</item>
+        <item>Wahyu 13</item>
+        <item>Wahyu 14</item>
+        <item>Wahyu 15</item>
+        <item>Wahyu 16</item>
+        <item>Wahyu 17</item>
+        <item>Wahyu 18</item>
+        <item>Wahyu 19</item>
+        <item>Wahyu 20</item>
+        <item>Wahyu 21</item>
+        <item>Wahyu 22</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.app.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+       
+        <activity
+            android:name="com.example.app.RestaBagus"
+            android:label="@string/title_activity_resta_bagus" >
+        </activity>
+        <activity android:name=".Makanan" >
+        </activity>
+        <activity android:name=".Makanan_Ayam" >
+        </activity>
+        <activity android:name=".Makanan_Bebek" >
+        </activity>
+        <activity android:name=".Makanan_Ikan" >
+        </activity>
+        <activity android:name=".Makanan_Udang" >
+        </activity>
+        <activity android:name=".Makanan_Sotong" >
+        </activity>
+        <activity android:name=".Makanan_Sup" >
+        </activity>
+        <activity android:name=".Makanan_Telur" >
+        </activity>
+        <activity android:name=".Makanan_Nasi" >
+        </activity>
+        <activity android:name=".Makanan_Sayur" >
+        </activity>
+        <activity android:name=".Makanan_Sambal" >
+        </activity>
+        <activity android:name=".Minuman" >
+        </activity>
+        <activity android:name=".Minuman_Dingin" >
+        </activity>
+        <activity android:name=".Minuman_Hangat" >
+        </activity>
+        <activity android:name=".Minuman_Kaleng" >
+        </activity>
+        <activity android:name=".IsiBiodata" >
+        </activity>
+        <activity android:name=".DaftarBiodataOffline" >
+        </activity>
+        <activity android:name=".DaftarBiodataOnline" >
+        </activity>
+        <activity android:name=".OperasiDatabase" >
+        </activity>
+        <activity android:name=".Snack" >
+        </activity>
+        <activity android:name=".Jus" >
+        </activity>
+        <activity android:name=".Kontak" >
+        </activity>
+        <!-- <activity android:name=".Sample_Dbase_Resta"></activity> -->
+        <activity android:name=".Gallery_Menu_Paket_Active" >
+        </activity>
+        <activity android:name=".MenuActivity" >
+        </activity>
+        <activity android:name=".dbase_resta" >
+        </activity>
+        <activity android:name=".Setting_wifi_connections" >
+        </activity>
+        <activity android:name=".Phone_Status" >
+        </activity>
+        <activity android:name=".Battery_Status" >
+        </activity>
+        <activity android:name=".Hardware_Status" >
+        </activity>
+        <activity android:name=".Daftar_Meja_Resta" >
+
+            <!-- <meta-data android:name="android.support.UI_OPTIONS" -->
+            <!-- android:value="splitActionBarWhenNarrow"/> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

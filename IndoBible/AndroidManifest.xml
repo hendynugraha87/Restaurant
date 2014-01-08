@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hendy.indobible"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Perjanjian_Lama"></activity>
+        <activity android:name=".Perjanjian_Baru"></activity>
+        <activity android:name=".Kejadian"></activity>
+        <activity android:name=".Keluaran"></activity>
+        <activity android:name=".Imamat"></activity>
+        <activity android:name=".Bilangan"></activity>
+        <activity android:name=".Ulangan"></activity>
+        <activity android:name=".Yosua"></activity>
+        <activity android:name=".Hakim_Hakim"></activity>
+        <activity android:name=".Rut"></activity>
+        <activity android:name=".Satu_Samuel"></activity>
+        <activity android:name=".Dua_Samuel"></activity>
+        <activity android:name=".Satu_Raja_Raja"></activity>
+        <activity android:name=".Dua_Raja_Raja"></activity>
+        <activity android:name=".Satu_Tawarikh"></activity>
+        <activity android:name=".Dua_Tawarikh"></activity>
+        <activity android:name=".Ezra"></activity>
+        <activity android:name=".Nehemia"></activity>
+        <activity android:name=".Ester"></activity>
+        <activity android:name=".Ayub"></activity>
+        <activity android:name=".Mazmur"></activity>
+        <activity android:name=".Amsal"></activity>
+        <activity android:name=".Pengkhotbah"></activity>
+        <activity android:name=".Kidung_Agung"></activity>
+        <activity android:name=".Yesaya"></activity>
+        <activity android:name=".Yeremia"></activity>
+        <activity android:name=".Ratapan"></activity>
+        <activity android:name=".Yehezkiel"></activity>
+        <activity android:name=".Daniel"></activity>
+        <activity android:name=".Hosea"></activity>
+        <activity android:name=".Yoel"></activity>
+        <activity android:name=".Amos"></activity>
+        <activity android:name=".Obaja"></activity>
+        <activity android:name=".Yunus"></activity>
+        <activity android:name=".Mikha"></activity>
+        <activity android:name=".Nahum"></activity>
+        <activity android:name=".Habakuk"></activity>
+        <activity android:name=".Zefanya"></activity>
+        <activity android:name=".Hagai"></activity>
+        <activity android:name=".Zakharia"></activity>
+        <activity android:name=".Maleakhi"></activity>
+        <activity android:name=".Matius"></activity>
+        <activity android:name=".Markus"></activity>
+        <activity android:name=".Lukas"></activity>
+        <activity android:name=".Yohanes"></activity>
+        <activity android:name=".Kisah_Para_Rasul"></activity>
+        <activity android:name=".Roma"></activity>
+        <activity android:name=".Satu_Korintus"></activity>
+        <activity android:name=".Dua_Korintus"></activity>
+        <activity android:name=".Galatia"></activity>
+        <activity android:name=".Efesus"></activity>
+        <activity android:name=".Filipi"></activity>
+        <activity android:name=".Kolose"></activity>
+        <activity android:name=".Satu_Tesalonika"></activity>
+        <activity android:name=".Dua_Tesalonika"></activity>
+        <activity android:name=".Satu_Timotius"></activity>
+        <activity android:name=".Dua_Timotius"></activity>
+        <activity android:name=".Titus"></activity>
+        <activity android:name=".Filemon"></activity>
+        <activity android:name=".Ibrani"></activity>
+        <activity android:name=".Yakobus"></activity>
+        <activity android:name=".Satu_Petrus"></activity>
+        <activity android:name=".Dua_Petrus"></activity>
+        <activity android:name=".Satu_Yohanes"></activity>
+        <activity android:name=".Dua_Yohanes"></activity>
+        <activity android:name=".Tiga_Yohanes"></activity>
+        <activity android:name=".Yudas"></activity>
+        <activity android:name=".Wahyu"></activity>
+        <activity
+            android:name="hendy.indobible.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

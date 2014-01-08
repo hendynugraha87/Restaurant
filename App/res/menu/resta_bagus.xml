@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Home"
+        android:icon="@drawable/toast"
+        />
+    
+    <item
+        android:id="@+id/table_list"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Table List"
+        android:icon="@drawable/toast"
+        />
+    
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Exit"
+        android:icon="@drawable/toast"
+        />
+		
+</menu>

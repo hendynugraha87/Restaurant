@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip" >
+		
+        <!-- Image icon sebelah kiri -->
+        <ImageView
+            android:id="@+id/picture_menu_on_listview"
+            android:layout_width="50dip"
+            android:layout_height="50dip" />
+    </LinearLayout>
+    
+    <!-- label Menu Nomor -->
+
+    <TextView
+        android:id="@+id/urutan_makanan_ayam_listview_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Menu no : "
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="12dip"
+        android:textStyle="bold" />
+
+    <!-- nomor urutan -->
+
+    <TextView
+        android:id="@+id/urutan_makanan_ayam_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/urutan_makanan_ayam_listview_label"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="12dip"
+        android:textStyle="bold"
+         />
+
+    <!-- label nama makanan -->
+
+    <TextView
+        android:id="@+id/nama_makanan_ayam_listview_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/urutan_makanan_ayam_listview_label"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Menu : "
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="12dip"
+        android:textStyle="bold" />
+
+    <!-- menu makanan -->
+
+    <TextView
+        android:id="@+id/nama_makanan_ayam_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/urutan_makanan_ayam_listview"
+        android:layout_toRightOf="@+id/nama_makanan_ayam_listview_label"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="12dip"
+        android:textStyle="bold" />
+
+    <!-- label harga makanan -->
+
+    <TextView
+        android:id="@+id/harga_makanan_ayam_listview_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama_makanan_ayam_listview_label"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Harga : "
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="12dip"
+        android:textStyle="bold" />
+
+    <!-- harga makanan -->
+
+    <TextView
+        android:id="@+id/harga_makanan_ayam_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama_makanan_ayam_listview"
+        android:layout_toRightOf="@+id/harga_makanan_ayam_listview_label"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="12dip"
+        android:textStyle="bold" />
+
+    <!-- Image icon sebelah kanan -->
+    <ImageView
+        android:id="@+id/arrow_on_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="1dp" />
+    
+	<!-- ratingbar icon sebelah kanan -->
+    <RatingBar 
+        android:id="@+id/rating_makanan_ayam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/arrow_on_listview"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="1"
+        style="?android:attr/ratingBarStyleSmall"
+        android:isIndicator="true"
+        />
+
+    <!-- android:padding="5dp" -->
+
+
+    <!-- <ImageView -->
+    <!-- android:id="@+id/logo_makanan" -->
+    <!-- android:layout_width="50px" -->
+    <!-- android:layout_height="50px" -->
+    <!-- android:layout_marginLeft="5px" -->
+    <!-- android:layout_marginRight="20px" -->
+    <!-- android:layout_marginTop="5px" -->
+    <!-- android:src="@drawable/ayam" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/label_makanan" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:text="@+id/label_makanan" -->
+    <!-- android:textSize="20px" /> -->
+
+</RelativeLayout>

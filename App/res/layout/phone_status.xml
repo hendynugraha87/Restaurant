@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbarAlwaysDrawVerticalTrack="false" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+		<!-- service state -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+        	
+            <!-- service state label -->
+            <TextView android:text="Service State :" style="@style/labelStyleRight"/>
+            <!-- service state result -->
+            <TextView android:id="@+id/serviceState_info" style="@style/textStyle"/>
+            
+        </LinearLayout>
+        
+        <!-- cell location -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal">
+            
+            <!-- cell location label -->
+            <TextView android:text="Cell Location :" style="@style/labelStyleRight"/>
+            <!-- cell location result -->
+            <TextView android:id="@+id/cellLocation_info" style="@style/textStyle"/>
+            
+        </LinearLayout>
+        
+        <!-- call state -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal">
+            
+            <!-- call state label -->
+            <TextView android:text="Call State :" style="@style/labelStyleRight"/>
+            <!-- call state result -->
+            <TextView android:id="@+id/callState_info" style="@style/textStyle"/>
+            
+        </LinearLayout>
+        
+        <!-- data connection state -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal">
+            
+            <!-- data connection state label -->
+            <TextView android:text="Connection State :" style="@style/labelStyleRight"/>
+            <!-- data connection state result -->
+            <TextView android:id="@+id/connectionState_info" style="@style/textStyle"/>
+            
+        </LinearLayout>
+        
+        <!-- signal level -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal">
+            
+            <!-- signal level label -->
+            <TextView android:text="Signal Level :" style="@style/labelStyleRight"/>
+            
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+                
+                <ProgressBar android:id="@+id/signalLevel" style="@style/progressStyle"/>
+                <TextView android:id="@+id/signalLevel_info" style="@style/textSmallType"/>
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+        <!-- data activity -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal">
+        
+            <!-- data activity label -->
+            <TextView android:text="Data :" style="@style/labelStyleRight"/>
+            <ImageView android:id="@+id/dataDirection" style="@style/imageStyle"/>
+        </LinearLayout>
+        
+        <!-- device info label -->
+        <TextView android:id="@+id/device_info" style="@style/labelStyleLeft"/>
+        
+    </LinearLayout>
+    
+
+</ScrollView>

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:text="Daftar Menu"
+        android:typeface="serif"
+        android:textColor="#FF0000"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/listview_menu_resta"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01" 
+        android:background="@drawable/custom_listview"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/listview_selector">
+    </ListView>
+    
+    
+<!--     <Button -->
+<!--         android:id="@+id/btn_makanan" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="10px" -->
+<!--         android:layout_weight="1" -->
+<!--         android:text="Makanan" -->
+<!--         android:drawableLeft="@drawable/ic_launcher" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/btn_snack" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="10px" -->
+<!--         android:layout_weight="1" -->
+<!--         android:text="Snack" -->
+<!--         android:drawableLeft="@drawable/ic_launcher" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/btn_minuman" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="10px" -->
+<!--         android:layout_weight="1" -->
+<!--         android:text="Minuman" -->
+<!--         android:drawableLeft="@drawable/ic_launcher" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/btn_jus" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="10px" -->
+<!--         android:layout_weight="1" -->
+<!--         android:text="Aneka Jus" -->
+<!--         android:drawableLeft="@drawable/ic_launcher" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/btn_kontak" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="70px" -->
+<!--         android:layout_weight="1" -->
+<!--         android:text="Resta Bagus" -->
+<!--         android:drawableLeft="@drawable/ic_launcher" /> -->
+    
+<!--     <Button -->
+<!--         android:id="@+id/btn_exit" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="5px" -->
+<!--         android:layout_weight="1" -->
+<!--         android:text="Exit" -->
+<!--         android:drawableLeft="@drawable/ic_launcher" /> -->
+
+</LinearLayout>
